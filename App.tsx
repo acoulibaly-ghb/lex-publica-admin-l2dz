@@ -74,7 +74,7 @@ const App = () => {
                 <MessageSquare size={20} /><span className="hidden md:block font-medium">Discussion</span>
             </button>
             <button onClick={() => setActiveMode(AppMode.VOICE)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.VOICE ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
-                <Mic size={20} /><span className="hidden md:block font-medium">Mode Oral</span>
+                <Mic size={20} /><span className="hidden md:block font-medium">Mode oral</span>
             </button>
             <button onClick={() => setActiveMode(AppMode.SETTINGS)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.SETTINGS ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
                 {isAuthenticated ? <Unlock size={20} /> : <Lock size={20} />}<span className="hidden md:block font-medium">Configuration</span>
@@ -129,5 +129,6 @@ const App = () => {
 };
 
 export default App;
+
 
 
