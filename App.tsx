@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect } from 'react';
-import { MessageSquare, Mic, BookOpen, GraduationCap, Settings, AlertTriangle, Lock, KeyRound, LogOut, Unlock, Moon, Sun } from 'lucide-react';
+import { MessageSquare, Mic, GraduationCap, Lock, Unlock, Moon, Sun } from 'lucide-react';
 import { TextChat } from './components/TextChat';
 import { VoiceChat } from './components/VoiceChat';
 import { CourseEditor } from './components/CourseEditor';
 import { AppMode } from './types';
 import { DEFAULT_COURSE_CONTENT, SYSTEM_INSTRUCTION, DEFAULT_THEME_COLOR } from './constants';
 
-const themeStyles: Record<string, { bg: string, text: string, ring: string }> = {
-  blue: { bg: 'bg-blue-600', text: 'text-blue-600', ring: 'ring-blue-600' },
-  emerald: { bg: 'bg-emerald-600', text: 'text-emerald-600', ring: 'ring-emerald-600' },
-  indigo: { bg: 'bg-indigo-600', text: 'text-indigo-600', ring: 'ring-indigo-600' },
-  rose: { bg: 'bg-[#ad5c51]', text: 'text-[#ad5c51]', ring: 'ring-[#ad5c51]' },
-  amber: { bg: 'bg-amber-600', text: 'text-amber-600', ring: 'ring-amber-600' },
+const themeStyles: Record<string, { bg: string, text: string }> = {
+  blue: { bg: 'bg-blue-600', text: 'text-blue-600' },
+  emerald: { bg: 'bg-emerald-600', text: 'text-emerald-600' },
+  indigo: { bg: 'bg-indigo-600', text: 'text-indigo-600' },
+  rose: { bg: 'bg-[#ad5c51]', text: 'text-[#ad5c51]' },
+  amber: { bg: 'bg-amber-600', text: 'text-amber-600' },
 };
 
 const App = () => {
@@ -92,13 +92,13 @@ const App = () => {
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10 transition-colors">
             <h1 className="text-2xl font-montserrat font-bold text-slate-800 dark:text-white">
-                {activeMode === AppMode.TEXT && 'Assistant de Révision'}
+                {activeMode === AppMode.TEXT && 'Assistant de RÃ©vision'}
                 {activeMode === AppMode.VOICE && 'Salle de Classe Virtuelle'}
                 {activeMode === AppMode.SETTINGS && 'Administration'}
             </h1>
             <div className="flex items-center gap-2">
                 <div className={`h-2 w-2 rounded-full ${activeTheme.bg}`}></div>
-                <span className="text-xs font-bold uppercase tracking-widest text-slate-400">Système Prêt</span>
+                <span className="text-xs font-bold uppercase tracking-widest text-slate-400">SystÃ¨me PrÃªt</span>
             </div>
         </header>
 
@@ -115,9 +115,9 @@ const App = () => {
                 ) : (
                     <div className="flex items-center justify-center h-full">
                         <form onSubmit={handleLogin} className="w-full max-w-md bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-700 p-8 space-y-6">
-                            <h2 className="text-xl font-serif font-bold text-center">Accès Professeur</h2>
-                            <input type="password" value={passwordInput} onChange={(e) => setPasswordInput(e.target.value)} className="block w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 focus:ring-2 focus:ring-blue-500 outline-none" placeholder="Mot de passe" autoFocus />
-                            <button type="submit" className={`w-full py-3 ${activeTheme.bg} text-white font-medium rounded-xl shadow-lg active:scale-95 transition-transform`}>Accéder</button>
+                            <h2 className="text-xl font-serif font-bold text-center text-slate-800 dark:text-white">AccÃ¨s Professeur</h2>
+                            <input type="password" value={passwordInput} onChange={(e) => setPasswordInput(e.target.value)} className="block w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 focus:ring-2 focus:ring-blue-500 outline-none transition-all" placeholder="Mot de passe" autoFocus />
+                            <button type="submit" className={`w-full py-3 ${activeTheme.bg} text-white font-medium rounded-xl shadow-lg active:scale-95 transition-transform`}>AccÃ©der</button>
                         </form>
                     </div>
                 )
