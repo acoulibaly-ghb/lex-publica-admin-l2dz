@@ -225,7 +225,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
           <div className="p-4 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
             {/* BOUTONS D'ACTIONS JURIDIQUES */}
             <div className="flex gap-2 mb-4 overflow-x-auto pb-2 no-scrollbar">
-                <button onClick={() => handleQuickAction('explication')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Gavel size={14} /> Expliquez-moi...</button>
+                <button onClick={() => handleQuickAction('explication')} className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-blue-700 bg-blue-50 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-200 dark:border-blue-800 rounded-lg hover:bg-blue-100 transition-all whitespace-nowrap"><Gavel size={14} /> Expliquez-moi...</button>
                 <button onClick={() => handleQuickAction('dissert')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Layout size={14} /> Plan Dissertation</button>
                 <button onClick={() => handleQuickAction('fiche')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><FileSignature size={14} /> Fiche d'arrêt</button>
                 <button onClick={() => handleQuickAction('glossary')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Search size={14} /> Glossaire</button>
@@ -287,6 +287,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
