@@ -39,7 +39,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
   const sessionPromiseRef = useRef<Promise<any> | null>(null);
 
   const colors = colorMap[themeColor] || colorMap.blue;
-  const fullSystemInstruction = `${systemInstruction}\n\nCONTENU DU COURS (Source Unique de Vérité) :\n${courseContent}`;
+  const fullSystemInstruction = `${systemInstruction}\n\nCONTENU DU COURS (Source Unique de VÃ©ritÃ©) :\n${courseContent}`;
 
   const disconnect = () => {
     if (processorRef.current) processorRef.current.disconnect();
@@ -129,7 +129,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
       source.connect(processor);
       processor.connect(inputAudioContextRef.current.destination);
       processorRef.current = processor;
-    } catch (err) { setErrorMsg("Accès micro refusé."); setStatus('error'); }
+    } catch (err) { setErrorMsg("AccÃ¨s micro refusÃ©."); setStatus('error'); }
   };
 
   useEffect(() => { return () => disconnect(); }, []);
@@ -152,7 +152,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
         {status === 'disconnected' && (
             <div className="flex p-1 bg-slate-800/50 rounded-2xl border border-slate-700">
                 <button onClick={() => setSelectedVoice('Fenrir')} className={`px-4 py-2 rounded-xl text-xs font-semibold ${selectedVoice === 'Fenrir' ? `${colors.primary} text-white` : 'text-slate-400'}`}>Masculine</button>
-                <button onClick={() => setSelectedVoice('Kore')} className={`px-4 py-2 rounded-xl text-xs font-semibold ${selectedVoice === 'Kore' ? 'bg-pink-600 text-white' : 'text-slate-400'}`}>Féminine</button>
+                <button onClick={() => setSelectedVoice('Kore')} className={`px-4 py-2 rounded-xl text-xs font-semibold ${selectedVoice === 'Kore' ? 'bg-pink-600 text-white' : 'text-slate-400'}`}>F&eacute;minine</button>
             </div>
         )}
         {errorMsg && <p className="text-red-400 text-sm mt-4">{errorMsg}</p>}
@@ -160,3 +160,4 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
     </div>
   );
 };
+
