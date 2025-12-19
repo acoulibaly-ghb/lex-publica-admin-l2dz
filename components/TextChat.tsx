@@ -24,20 +24,12 @@ interface AttachedFile {
   mimeType: string;
 }
 
-// Custom hex for Toulouse Brick: #ad5c51
-const colorMap: Record<string, { primary: string, hover: string, bg: string, text: string, border: string, ring: string }> = {
-  blue: { primary: 'bg-blue-700', hover: 'hover:bg-blue-800', bg: 'bg-blue-50', text: 'text-blue-700', border: 'border-blue-200', ring: 'focus-within:ring-blue-500/5' },
-  emerald: { primary: 'bg-emerald-700', hover: 'hover:bg-emerald-800', bg: 'bg-emerald-50', text: 'text-emerald-700', border: 'border-emerald-200', ring: 'focus-within:ring-emerald-500/5' },
-  indigo: { primary: 'bg-indigo-700', hover: 'hover:bg-indigo-800', bg: 'bg-indigo-50', text: 'text-indigo-700', border: 'border-indigo-200', ring: 'focus-within:ring-indigo-500/5' },
-  rose: { 
-    primary: 'bg-[#ad5c51]', 
-    hover: 'hover:bg-[#914a41]', 
-    bg: 'bg-[#fff5f4]', 
-    text: 'text-[#ad5c51]', 
-    border: 'border-[#f2d8d5]',
-    ring: 'focus-within:ring-[#ad5c51]/5'
-  },
-  amber: { primary: 'bg-amber-700', hover: 'hover:bg-amber-800', bg: 'bg-amber-50', text: 'text-amber-700', border: 'border-amber-200', ring: 'focus-within:ring-amber-500/5' },
+const colorMap: Record<string, { primary: string, hover: string, bg: string, text: string, border: string }> = {
+  blue: { primary: 'bg-blue-700', hover: 'hover:bg-blue-800', bg: 'bg-blue-50', text: 'text-blue-700', border: 'border-blue-200' },
+  emerald: { primary: 'bg-emerald-700', hover: 'hover:bg-emerald-800', bg: 'bg-emerald-50', text: 'text-emerald-700', border: 'border-emerald-200' },
+  indigo: { primary: 'bg-indigo-700', hover: 'hover:bg-indigo-800', bg: 'bg-indigo-50', text: 'text-indigo-700', border: 'border-indigo-200' },
+  rose: { primary: 'bg-[#ad5c51]', hover: 'hover:bg-[#914a41]', bg: 'bg-[#fff5f4]', text: 'text-[#ad5c51]', border: 'border-[#f2d8d5]' },
+  amber: { primary: 'bg-amber-700', hover: 'hover:bg-amber-800', bg: 'bg-amber-50', text: 'text-amber-700', border: 'border-amber-200' },
 };
 
 export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruction, apiKey, themeColor = 'blue' }) => {
@@ -66,12 +58,8 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
 
   const colors = colorMap[themeColor] || colorMap.blue;
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   useEffect(() => {
-    scrollToBottom();
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [activeSession?.messages, isLoading]);
 
   useEffect(() => {
@@ -84,7 +72,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file || file.type !== 'application/pdf') {
-      if (file) alert("Veuillez sélectionner un fichier PDF.");
+      if (file) alert("Veuillez sÃ©lectionner un fichier PDF.");
       return;
     }
     const reader = new FileReader();
@@ -119,7 +107,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
       }
 
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-flash-preview',
         contents: [
             ...(activeSession?.messages || []).map(m => ({ role: m.role, parts: [{ text: m.text }] })),
             { role: 'user', parts: parts }
@@ -129,7 +117,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
 
       addMessageToSession(activeSessionId, {
         role: 'model',
-        text: response.text || "Je n'ai pas pu formuler de réponse.",
+        text: response.text || "Je n'ai pas pu formuler de rÃ©ponse.",
         timestamp: new Date()
       });
     } catch (error) {
@@ -148,9 +136,9 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
   const handleQuickAction = (action: string) => {
     let prompt = "";
     switch(action) {
-        case 'juris': prompt = "Quels sont les arrêts de principe essentiels à retenir dans ce cours ?"; break;
-        case 'dissert': prompt = "Propose-moi un sujet de dissertation et un plan détaillé (I. II.) basé sur le cours."; break;
-        case 'fiche': prompt = "Aide-moi à faire une fiche d'arrêt méthodologique sur la base de mes dernières questions."; break;
+        case 'juris': prompt = "Quels sont les arrÃªts de principe essentiels Ã  retenir dans ce cours ?"; break;
+        case 'dissert': prompt = "Propose-moi un sujet de dissertation et un plan dÃ©taillÃ© (I. II.) basÃ© sur le cours."; break;
+        case 'fiche': prompt = "Aide-moi Ã  faire une fiche d'arrÃªt mÃ©thodologique sur la base de mes derniÃ¨res questions."; break;
         case 'glossary': prompt = "Dresse-moi un glossaire des 5 termes juridiques les plus complexes de ce cours."; break;
         case 'cas': prompt = "Propose-moi un court cas pratique pour tester mes connaissances."; break;
     }
@@ -170,10 +158,10 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
       <div className={`absolute inset-y-0 left-0 z-30 flex flex-col w-72 bg-slate-50 dark:bg-slate-950 border-r border-slate-200 dark:border-slate-800 transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-4 border-b border-slate-200 dark:border-slate-800 flex flex-col gap-4">
             <div className="flex items-center justify-between">
-                <h3 className="font-serif font-bold text-slate-700 dark:text-slate-200">Mes Révisions</h3>
+                <h3 className="font-serif font-bold text-slate-700 dark:text-slate-200">Mes RÃ©visions</h3>
                 <button onClick={() => setIsSidebarOpen(false)} className="p-2 text-slate-500 hover:bg-slate-200 dark:hover:bg-slate-800 rounded-lg"><PanelLeftClose size={20} /></button>
             </div>
-            <button onClick={() => { createNewSession(); setIsSidebarOpen(false); }} className={`w-full flex items-center justify-center gap-2 px-4 py-3 ${colors.primary} text-white rounded-lg font-medium ${colors.hover} shadow-md transition-all`}><Plus size={18} /><span>Nouvelle Session</span></button>
+            <button onClick={() => { createNewSession(); setIsSidebarOpen(false); }} className={`w-full flex items-center justify-center gap-2 px-4 py-3 ${colors.primary} text-white rounded-lg font-medium shadow-md transition-all active:scale-95`}><Plus size={18} /><span>Nouvelle Session</span></button>
         </div>
         <div className="flex-1 overflow-y-auto p-2 space-y-1">
             {sessions.map(session => (
@@ -202,16 +190,9 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
           <header className="p-4 border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex items-center justify-between sticky top-0 z-10 shadow-sm">
               <div className="flex items-center gap-3">
                 <button onClick={() => setIsSidebarOpen(true)} className="p-2 -ml-2 text-slate-600 dark:text-slate-300 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"><PanelLeft size={20} /></button>
-                <span className="font-serif font-bold text-slate-800 dark:text-slate-100 truncate">{activeSession?.title || 'Session de Droit'}</span>
+                <span className="font-serif font-bold text-slate-800 dark:text-white truncate">{activeSession?.title || 'Session de Droit'}</span>
               </div>
-              <button 
-                onClick={(e) => {
-                    e.preventDefault();
-                    setIsHelpOpen(true);
-                }} 
-                className="p-2 text-slate-400 hover:text-amber-500 transition-all active:scale-90" 
-                title="Guide d'utilisation"
-              >
+              <button onClick={() => setIsHelpOpen(true)} className="p-2 text-slate-400 hover:text-amber-500 transition-all active:scale-90" title="Guide d'utilisation">
                 <Lightbulb size={24} />
               </button>
           </header>
@@ -246,7 +227,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
             <div className="flex gap-2 mb-4 overflow-x-auto pb-2 no-scrollbar">
                 <button onClick={() => handleQuickAction('juris')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Gavel size={14} /> Jurisprudence</button>
                 <button onClick={() => handleQuickAction('dissert')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Layout size={14} /> Plan Dissertation</button>
-                <button onClick={() => handleQuickAction('fiche')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><FileSignature size={14} /> Fiche d'arrêt</button>
+                <button onClick={() => handleQuickAction('fiche')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><FileSignature size={14} /> Fiche d'arrÃªt</button>
                 <button onClick={() => handleQuickAction('glossary')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><Search size={14} /> Glossaire</button>
                 <button onClick={() => handleQuickAction('cas')} className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold ${colors.text} ${colors.bg} dark:bg-slate-800 ${colors.border} border rounded-lg hover:brightness-95 transition-all whitespace-nowrap`}><BookOpen size={14} /> Cas Pratique</button>
             </div>
@@ -259,7 +240,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                 </div>
             )}
 
-            <div className={`relative flex items-end gap-2 bg-slate-50 dark:bg-slate-800/50 p-2 rounded-2xl border-2 border-slate-200 dark:border-slate-700 focus-within:border-${themeColor === 'rose' ? '[#ad5c51]' : colors.primary.split('-')[1]}-500/50 focus-within:ring-4 ${colors.ring} transition-all`}>
+            <div className={`relative flex items-end gap-2 bg-slate-50 dark:bg-slate-800/50 p-2 rounded-2xl border-2 border-slate-200 dark:border-slate-700 transition-all focus-within:ring-2 focus-within:ring-${themeColor === 'rose' ? '[#ad5c51]' : 'blue-500'}/10`}>
                 <button onClick={() => fileInputRef.current?.click()} className={`p-3 text-slate-400 hover:${colors.text} hover:${colors.bg} dark:hover:bg-slate-900 rounded-xl transition-all`}><Paperclip size={22} /></button>
                 <input type="file" ref={fileInputRef} onChange={handleFileChange} accept=".pdf" className="hidden" />
                 <textarea
@@ -269,7 +250,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                     onChange={e => setInput(e.target.value)}
                     onKeyDown={e => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), sendMessage())}
                     placeholder="Posez votre question juridique..."
-                    className="flex-1 py-3 bg-transparent !border-none outline-none shadow-none focus:ring-0 resize-none text-slate-800 dark:text-white max-h-[200px] text-sm md:text-base"
+                    className="flex-1 py-3 bg-transparent border-none focus:ring-0 resize-none text-slate-800 dark:text-white max-h-[200px] text-sm md:text-base"
                 />
                 <button onClick={() => sendMessage()} disabled={(!input.trim() && !attachedFile) || isLoading} className={`p-3 ${colors.primary} text-white rounded-xl ${colors.hover} shadow-lg disabled:opacity-50 active:scale-95 transition-all`}><Send size={20} /></button>
             </div>
@@ -282,49 +263,27 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
           <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl w-full max-w-lg flex flex-col max-h-[90%] overflow-hidden border border-slate-200 dark:border-slate-700">
             <div className="p-5 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-800/50">
               <div className="flex items-center gap-3">
-                <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg">
-                  <Lightbulb size={24} />
-                </div>
-                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de l'Étudiant</h3>
+                <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg"><Lightbulb size={24} /></div>
+                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de l'Ã‰tudiant</h3>
               </div>
-              <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors">
-                <X size={20} />
-              </button>
+              <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors"><X size={20} /></button>
             </div>
-            
             <div className="p-6 overflow-y-auto space-y-6 text-sm text-slate-600 dark:text-slate-400">
               <section className="space-y-2">
-                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
-                  <Paperclip size={18} className={colors.text} />
-                  Analyse de Documents PDF
-                </h4>
-                <p>Utilisez le trombone pour joindre un arrêt ou un document de TD. L'IA l'analysera à la lumière des principes vus en cours magistral.</p>
+                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}><Paperclip size={18} className={colors.text} /> Analyse de Documents PDF</h4>
+                <p>Utilisez le trombone pour joindre un arrÃªt ou un document de TD. L'IA l'analysera Ã  la lumiÃ¨re des principes vus en cours magistral.</p>
               </section>
-
               <section className="space-y-2">
-                <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
-                  <Layout size={18} className={colors.text} />
-                  Actions Juridiques Rapides
-                </h4>
-                <p>Les boutons au-dessus de la saisie permettent de générer des plans de dissertation, des fiches d'arrêt ou des glossaires instantanément.</p>
-              </section>
-
-              <section className="space-y-2">
-                <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
-                  <Edit2 size={18} className={colors.text} />
-                  Historique Personnalisé
-                </h4>
-                <p>Renommez vos sessions de révision dans la barre latérale pour mieux organiser vos thématiques (ex: "Police Administrative", "Recours pour Excès de Pouvoir").</p>
+                <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2"><Layout size={18} className={colors.text} /> Actions Juridiques Rapides</h4>
+                <p>Les boutons au-dessus de la saisie permettent de gÃ©nÃ©rer des plans de dissertation, des fiches d'arrÃªt ou des glossaires instantanÃ©ment.</p>
               </section>
             </div>
-            
             <div className="p-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-800">
               <button onClick={() => setIsHelpOpen(false)} className={`w-full py-3 ${colors.primary} ${colors.hover} text-white rounded-xl font-bold shadow-md transition-all`}>Retourner au cours</button>
             </div>
           </div>
         </div>
       )}
-
     </div>
   );
 };
