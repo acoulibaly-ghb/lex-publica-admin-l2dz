@@ -137,7 +137,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
   return (
     <div className="flex flex-col items-center justify-center h-full max-w-4xl mx-auto w-full bg-slate-900 rounded-2xl shadow-2xl overflow-hidden relative border border-slate-800">
       <div className="z-10 flex flex-col items-center gap-8 p-10 text-center w-full">
-        <h2 className="text-3xl font-serif font-bold text-white tracking-tight">Interrogation Orale</h2>
+        <h2 className="text-3xl font-serif font-bold text-white tracking-tight">Vocal (Live)</h2>
         <AudioVisualizer level={volumeLevel} isActive={status === 'connected'} themeColor={themeColor} />
         <div className="flex items-center gap-6">
             {status === 'connected' ? (
@@ -145,7 +145,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
             ) : (
                 <button onClick={connect} disabled={status === 'connecting'} className={`flex items-center gap-4 px-12 py-6 rounded-full ${colors.primary} text-white font-serif font-bold text-xl ${colors.hover} shadow-2xl transition-all active:scale-95 disabled:opacity-50`}>
                   {status === 'connecting' ? <AlertCircle className="animate-pulse" size={28} /> : <Phone size={28} />}
-                  <span>{status === 'connecting' ? 'Appel en cours...' : 'Appeler le professeur'}</span>
+                  <span>{status === 'connecting' ? 'Appel en cours...' : 'Appeler Ada'}</span>
                 </button>
             )}
         </div>
@@ -160,4 +160,5 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
     </div>
   );
 };
+
 
