@@ -27,7 +27,7 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
   const [isMuted, setIsMuted] = useState(false);
   const [volumeLevel, setVolumeLevel] = useState(0);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [selectedVoice, setSelectedVoice] = useState<VoiceOption>('Fenrir');
+  const [selectedVoice, setSelectedVoice] = useState<VoiceOption>('Kore');
 
   const inputAudioContextRef = useRef<AudioContext | null>(null);
   const outputAudioContextRef = useRef<AudioContext | null>(null);
@@ -160,5 +160,6 @@ export const VoiceChat: React.FC<VoiceChatProps> = ({ courseContent, systemInstr
     </div>
   );
 };
+
 
 
