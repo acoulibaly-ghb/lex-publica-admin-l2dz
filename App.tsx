@@ -83,7 +83,7 @@ const App = () => {
 
         <div className="p-4 border-t border-slate-800 space-y-2">
             <button onClick={() => setIsDarkMode(!isDarkMode)} className="w-full flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white transition-colors">
-                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Clair' : 'Sombre'}</span>
+                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
             </button>
         </div>
         <div className="bg-slate-800/50 rounded-lg p-3 text-xs text-slate-500 hidden md:block">
@@ -134,6 +134,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
