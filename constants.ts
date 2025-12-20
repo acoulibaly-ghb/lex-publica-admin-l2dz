@@ -2,11 +2,21 @@
 export const DEFAULT_THEME_COLOR = 'rose';
 
 export const DEFAULT_VOICE_SUMMARY = `
-RÉSUMÉ POUR L'ORAL :
-Le droit administratif régit l'administration. 
-L'arrêt Blanco (1873) fonde son autonomie. 
-Le Service Public repose sur la continuité, la mutabilité et l'égalité (Lois de Rolland). 
-La Police Administrative protège l'ordre public (sécurité, tranquillité, salubrité et dignité humaine).
+PREMIÈRE PARTIE - L’encadrement normatif de l’activité administrative
+TITRE I - Les modalités de l’action administrative
+TITRE II - La régularité de l’action administrative 
+Définition : Le principe de légalité, c’est le principe selon lequel l’autorité administrative doit toujours agir dans le respect de certaines règles.
+Définition : Le principe de la responsabilité, c’est le principe selon lequel si l’administration cause un dommage, elle doit le réparer.
+CHAPITRE I - Le principe de légalité
+La légalité résulte d'un ensemble de règles hiérarchisées. Il ne s'agit pas seulement de lois, contrairement à ce que suggère l'étymologie latine : lex, legis (loi).  
+On s'interrogera sur le contenu et la portée de ces règles.  
+Auparavant, il convient d'identifier les gardiens de la légalité, c’est-à-dire les juges.  
+Quelles sont les juridictions administratives ?
+SECTION I - Les juges de l'action administrative
+I - La typologie des juridictions administratives
+Il existe deux types de juridictions administratives :
+* des juridictions administratives à compétence générale
+* et des juridictions administratives à compétence spéciale.
 `;
 
 export const DEFAULT_COURSE_CONTENT = `
