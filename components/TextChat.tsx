@@ -212,7 +212,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                     <div className={`w-10 h-10 rounded-full ${colors.primary} flex items-center justify-center text-white`}><Scale size={20} /></div>
                     <div className="bg-white dark:bg-slate-800 px-5 py-3 rounded-2xl rounded-tl-none border border-slate-200 dark:border-slate-700">
                         <Loader2 className={`animate-spin ${colors.text} inline-block mr-2`} size={16} />
-                        <span className="text-slate-500 text-sm italic">Analyse doctrinale...</span>
+                        <span className="text-slate-500 text-sm italic">Analyse en cours...</span>
                     </div>
                 </div>
             )}
@@ -243,8 +243,8 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                     value={input}
                     onChange={e => setInput(e.target.value)}
                     onKeyDown={e => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), sendMessage())}
-                    placeholder="Posez votre question juridique..."
-                    className="flex-1 py-3 bg-transparent border-none focus:ring-0 resize-none text-slate-800 dark:text-white max-h-[200px] text-sm md:text-base"
+                    placeholder="Posez votre question..."
+                    className="flex-1 py-3 bg-transparent !border-none outline-none shadow-none focus:ring-0 resize-none text-slate-800 dark:text-white max-h-[200px] text-sm md:text-base"
                 />
                 <button onClick={() => sendMessage()} disabled={(!input.trim() && !attachedFile) || isLoading} className={`p-3 ${colors.primary} text-white rounded-xl ${colors.hover} shadow-lg disabled:opacity-50 active:scale-95 transition-all`}><Send size={20} /></button>
             </div>
@@ -275,3 +275,4 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
