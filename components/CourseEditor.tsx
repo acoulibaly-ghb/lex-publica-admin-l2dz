@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Bot, Book, Palette, Download, UploadCloud, RefreshCw, Check, Zap } from 'lucide-react';
+import { Bot, Book, Palette, Download, UploadCloud, RefreshCw, Check, Zap, MessageSquare, Mic } from 'lucide-react';
 
 interface CourseEditorProps {
   initialContent: string;
@@ -9,12 +9,14 @@ interface CourseEditorProps {
   onSaveVoiceSummary: (newSummary: string) => void;
   initialInstruction: string;
   onSaveInstruction: (newInstruction: string) => void;
+  initialVoiceInstruction: string;
+  onSaveVoiceInstruction: (newInstruction: string) => void;
   initialThemeColor: string;
   onSaveThemeColor: (newColor: string) => void;
 }
 
 type Tab = 'content' | 'instruction' | 'appearance';
-type ContentSubTab = 'master' | 'voice';
+type SubTab = 'master' | 'voice';
 
 const themes = [
   { id: 'blue', name: 'Droit Administratif (Bleu)', class: 'bg-blue-600' },
@@ -31,15 +33,18 @@ export const CourseEditor: React.FC<CourseEditorProps> = ({
   onSaveVoiceSummary,
   initialInstruction,
   onSaveInstruction,
+  initialVoiceInstruction,
+  onSaveVoiceInstruction,
   initialThemeColor,
   onSaveThemeColor
 }) => {
   const [activeTab, setActiveTab] = useState<Tab>('content');
-  const [activeSubTab, setActiveSubTab] = useState<ContentSubTab>('master');
+  const [activeSubTab, setActiveSubTab] = useState<SubTab>('master');
   
   const [content, setContent] = useState(initialContent);
   const [voiceSummary, setVoiceSummary] = useState(initialVoiceSummary);
   const [instruction, setInstruction] = useState(initialInstruction);
+  const [voiceInstruction, setVoiceInstruction] = useState(initialVoiceInstruction);
   const [themeColor, setThemeColor] = useState(initialThemeColor);
 
   useEffect(() => {
@@ -60,6 +65,12 @@ export const CourseEditor: React.FC<CourseEditorProps> = ({
     return () => clearTimeout(timer);
   }, [instruction]);
 
+  useEffect(() => {
+    if (voiceInstruction === initialVoiceInstruction) return;
+    const timer = setTimeout(() => onSaveVoiceInstruction(voiceInstruction), 1000);
+    return () => clearTimeout(timer);
+  }, [voiceInstruction]);
+
   return (
     <div className="flex flex-col h-full max-w-5xl mx-auto w-full transition-colors pb-10">
       
@@ -78,16 +89,19 @@ export const CourseEditor: React.FC<CourseEditorProps> = ({
 
       <div className="flex-1 bg-white dark:bg-slate-900 rounded-b-xl rounded-tr-xl shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col p-6 overflow-hidden">
         
-        {activeTab === 'content' && (
-          <div className="flex flex-col h-full space-y-4">
-            <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-lg self-start">
-              <button onClick={() => setActiveSubTab('master')} className={`px-4 py-2 rounded-md text-xs font-bold transition-all ${activeSubTab === 'master' ? 'bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'text-slate-500'}`}>COURS COMPLET (Texte)</button>
-              <button onClick={() => setActiveSubTab('voice')} className={`px-4 py-2 rounded-md text-xs font-bold transition-all flex items-center gap-2 ${activeSubTab === 'voice' ? 'bg-white dark:bg-slate-700 shadow-sm text-[#ad5c51]' : 'text-slate-500'}`}><Zap size={14} /> SYNTHÈSE (Voix)</button>
+        {/* Sub-Tabs Selector (Shared for Content and Instruction) */}
+        {(activeTab === 'content' || activeTab === 'instruction') && (
+            <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-lg self-start mb-4">
+              <button onClick={() => setActiveSubTab('master')} className={`px-4 py-2 rounded-md text-xs font-bold transition-all flex items-center gap-2 ${activeSubTab === 'master' ? 'bg-white dark:bg-slate-700 shadow-sm text-blue-600' : 'text-slate-500'}`}><MessageSquare size={14} /> TEXTE</button>
+              <button onClick={() => setActiveSubTab('voice')} className={`px-4 py-2 rounded-md text-xs font-bold transition-all flex items-center gap-2 ${activeSubTab === 'voice' ? 'bg-white dark:bg-slate-700 shadow-sm text-[#ad5c51]' : 'text-slate-500'}`}><Mic size={14} /> ORAL</button>
             </div>
+        )}
 
+        {activeTab === 'content' && (
+          <div className="flex-1 flex flex-col space-y-2">
             {activeSubTab === 'master' ? (
               <div className="flex-1 flex flex-col animate-in fade-in duration-200">
-                <p className="text-xs text-slate-500 mb-2 italic">Ce texte sera utilisé pour le chat textuel, les quiz et l'analyse de documents. Pas de limite de taille stricte.</p>
+                <p className="text-xs text-slate-500 mb-2 italic">Ce texte sera utilisé pour le chat textuel. Pas de limite de taille stricte.</p>
                 <textarea 
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
@@ -98,7 +112,7 @@ export const CourseEditor: React.FC<CourseEditorProps> = ({
               </div>
             ) : (
               <div className="flex-1 flex flex-col animate-in fade-in duration-200">
-                <p className="text-xs text-slate-500 mb-2 italic">Indispensable pour le Mode Oral. Résumez les points clés (max 150ko) pour éviter que la voix ne sature.</p>
+                <p className="text-xs text-slate-500 mb-2 italic">Indispensable pour le Mode Oral. Résumez les points clés (max 150ko).</p>
                 <textarea 
                     value={voiceSummary}
                     onChange={(e) => setVoiceSummary(e.target.value)}
@@ -112,12 +126,26 @@ export const CourseEditor: React.FC<CourseEditorProps> = ({
         )}
 
         {activeTab === 'instruction' && (
-          <div className="flex flex-col h-full animate-in fade-in duration-200">
-            <textarea 
-                value={instruction}
-                onChange={(e) => setInstruction(e.target.value)}
-                className="flex-1 w-full h-full p-4 resize-none border border-slate-200 dark:border-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-slate-700 dark:text-slate-200 font-mono text-sm bg-slate-50 dark:bg-slate-950"
-            />
+          <div className="flex-1 flex flex-col space-y-2">
+            {activeSubTab === 'master' ? (
+              <div className="flex-1 flex flex-col animate-in fade-in duration-200">
+                <p className="text-xs text-slate-500 mb-2 italic">Consignes de comportement pour l'assistant textuel.</p>
+                <textarea 
+                    value={instruction}
+                    onChange={(e) => setInstruction(e.target.value)}
+                    className="flex-1 w-full p-4 resize-none border border-slate-200 dark:border-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/50 text-slate-700 dark:text-slate-200 font-mono text-sm bg-slate-50 dark:bg-slate-950"
+                />
+              </div>
+            ) : (
+              <div className="flex-1 flex flex-col animate-in fade-in duration-200">
+                <p className="text-xs text-slate-500 mb-2 italic">Consignes pour l'oral (ex: renvoi vers le texte en cas de question complexe).</p>
+                <textarea 
+                    value={voiceInstruction}
+                    onChange={(e) => setVoiceInstruction(e.target.value)}
+                    className="flex-1 w-full p-4 resize-none border border-slate-200 dark:border-slate-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ad5c51]/50 text-slate-700 dark:text-slate-200 font-mono text-sm bg-[#fff5f4] dark:bg-slate-950"
+                />
+              </div>
+            )}
           </div>
         )}
 
