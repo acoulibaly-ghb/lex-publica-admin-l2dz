@@ -1676,11 +1676,6 @@ Définition : Le fait du prince, c’est la théorie permettant l’indemnisatio
 
 Définition : L’imprévision, c’est la théorie permettant d’obliger l'administration contractante à aider financièrement son cocontractant lorsqu'un événement imprévisible, (donc anormal) et indépendant de la volonté des parties bouleverse l'économie du contrat. 
 
-
-
-
-*  
-
  Les contrats de l’administration se répartissent entre deux grandes catégories :
 1. les contrats administratifs, qui relèvent du droit administratif et du juge administratif,
 2. les contrats de droit privé, qui relèvent du droit privé et du juge judiciaire.
@@ -1715,11 +1710,8 @@ Actuellement, le principe est repris à l’article L. 3331-1 du code général 
 * Exemple :
  De jurisprudence constante, sont des contrats de droit privé les contrats conclus entre les services publics à caractère industriel et commercial et leurs usagers en vue de fournir à ces derniers des prestations de service. 
 Ces contrats ne sont jamais qualifiés de contrats administratifs même s'ils satisfont aux critères jurisprudentiels permettant de qualifier un contrat de contrat administratif – Conseil d’État, Section, 13 octobre 1961, Établissements Campanon-Rey ; Tribunal des Conflits, 17 décembre 1962, Dame Bertrand.
-*
 
-
-*
-        B – Les contrats administratifs par application des critères jurisprudentiels
+ B – Les contrats administratifs par application des critères jurisprudentiels
 	
 1 – Le critère organique : au moins, une personne publique partie au contrat
  Question : Qu’est-ce qu’une personne publique ? 
@@ -1757,8 +1749,6 @@ La commune de Toulouse (personne publique) donne mandat à l’entreprise Delphi
 En vertu de ce mandat, l’entreprise Delphine Consulting va conclure, au nom et pour le compte de la commune de Toulouse, un contrat avec l’entreprise Thomas et Frères (personne privée).
 Ce contrat met donc en rapport la commune de Toulouse (personne publique) avec l’entreprise Thomas et Frères (personne privée). 
 
-*
- 
 c – La personne privée transparente
 
 Arrêt de principe : Conseil d’État, 21 mars 2007, Commune de Boulogne-Billancourt contre Société Mayday Sécurité.
@@ -1776,9 +1766,8 @@ Il est donc logique de considérer, comme l’a fait le Conseil d’État,
 • que ces contrats remplissent ainsi le critère organique (présence d’une personne publique)
 • et que ces contrats sont des contrats administratifs s’ils remplissent de surcroît l’un des trois critères matériels supplémentaires nécessairement à la qualification de contrat administratif (Conseil d’État, 21 mars 2007, Commune de Boulogne-Billancourt contre Société Mayday Sécurité).
 
-*
- Ainsi donc, pour qu’un contrat soit qualifié de contrat administratif selon les critères jurisprudentiels, la présence d’une personne publique en tant que partie est une condition sine qua non, une condition en principe invariablement exigée.
-*
+Ainsi donc, pour qu’un contrat soit qualifié de contrat administratif selon les critères jurisprudentiels, la présence d’une personne publique en tant que partie est une condition sine qua non, une condition en principe invariablement exigée.
+
 Enfin, « un contrat conclu entre deux personnes publiques revêt en principe un carac-tère administratif […], sauf dans le cas où, eu égard à son objet, il ne ferait naître entre les parties que des rapports de droit privé » - Tribunal des conflits, 21 mars 1983, Union des Assurances de Paris.
 Explication de ce dernier principe : un contrat conclu entre deux personnes publiques est présumé administratif ; grande est la probabilité qu’il s’agisse d’un contrat administratif. Mais c’est une présomption simple. Le contrat n’est effectivement administratif que s’il satisfait aux autres critères jurisprudentiels.
 Exemples : 
@@ -1813,20 +1802,17 @@ est un contrat administratif.
  Exception : les contrats conclus entre les services publics à caractère industriel et commercial et leurs usagers en vue de fournir à ces derniers des prestations de services. 
 Ces contrats ne sont jamais des contrats administratifs même s'ils renferment des clauses exorbitantes. En conséquence, ce sont toujours des contrats de droit privé : Conseil d’État, Section, 13 octobre 1961, Établissements Compagnon-Rey, Rec. p. 567 ; TC 17 décembre 1962, Dame Bertrand, Rec. p. 831.
  Précision importante : La présence de clauses exorbitantes du droit commun ne donne un caractère administratif au contrat, que si ces clauses exorbitantes sont stipulées au profit de la personne publique contractante, et non au profit de la personne privée – Tribunal des conflits, 2 novembre 2020, Société Eveha.
-*
+
  Question : Qu’est-ce qu’une clause exorbitante du droit commun ? 
  Réponse : 
 Clause = disposition d'un contrat ; 
 Exorbitante = ex orbita, hors de la voie tracée, hors du droit commun.
 
-
-
-
 * Exemples de clauses exorbitantes du droit commun :
 * la clause qui donne à l’administration la faculté de prononcer la résiliation unilatérale du contrat en l’absence de tout manquement du cocontractant à ses obligations contractuelles ;
 * la clause qui donne à l’administration le pouvoir de suspendre d'office l'exécution du contrat, sans mise en demeure préalable ;
 * la clause permettant à l'administration de contrôler les résultats financiers, les tarifs ou le personnel de son cocontractant.
-*
+
 b – La présence d'un régime exorbitant
  Le régime exorbitant diffère de la clause exorbitante sur un point : 
 o la clause exorbitante est un élément, une disposition, une clause du contrat. 
@@ -1855,8 +1841,6 @@ Conseil d’État, 6 mai 1985, Ricard. Cette espèce concerne l’ancien contrat
  Cela dit, en principe, l’usager d’un service public à caractère administratif n’est pas dans une situation contractuelle, comme le rappelle le Tribunal des conflits dans une affaire relative aux péages autoroutiers : 
 « Considérant qu’une société concessionnaire de la construction et de l’exploitation d’une autoroute a pour activité l’exécution d’une mission de service public administratif, sans qu’y fasse obstacle la circonstance que les péages, qui ont le caractère de redevances pour service rendu, sont assujettis à la taxe sur la valeur ajoutée; que les usagers de l’autoroute, même abonnés, sont dans une situation unilatérale et réglementaire à l’égard du concessionnaire ; »  – Tribunal des conflits, 20 novembre 2006, Société EGTL c Escota_autoroute.  
  Nota bene : À l’inverse les contrats (très fréquents) conclus avec les usagers des services publics à caractère industriel et commercial sont des contrats de droit privé même s’ils renferment des clauses exorbitantes du droit commun.
-*
-
 
 La qualification de contrat administratif découle 
 * soit de la loi,
@@ -1868,6 +1852,681 @@ Les critères définis par la jurisprudence (Cf. I – B) : Sous réserve d’ex
 2. le contrat a été conclu sous un régime exorbitant ;
 3. le contrat est en relation avec l'exécution d'une mission de service public.
  Toutefois, certains contrats ne sont jamais considérés comme des contrats administratifs même s'ils satisfont à tous les critères définis par la jurisprudence. Exemple : le contrat conclu entre un service public industriel et commercial et l'un de ses usagers en vue de fournir à ce dernier des prestations de service.
+
+II – La conclusion des contrats administratifs 
+
+A – La typologie des contrats administratifs 
+ Tous les contrats administratifs ne sont pas des marchés publics, ni des contrats de concession.
+ Néanmoins, les marchés publics et les contrats de concession sont les contrats administratifs les plus courants et les plus importants.
+ Il est donc opportun de leur accorder une attention particulière.
+
+1 – La distinction contrat de concession – marché public
+   Les contrats de concession sont définis par l’article L1121-1 du code de la commande publique :  
+ « Un contrat de concession est un contrat par lequel une ou plusieurs autorités concédantes soumises au présent code confient l'exécution de travaux ou la gestion d'un service à un ou plusieurs opérateurs économiques, à qui est transféré un risque lié à l'exploitation de l'ouvrage ou du service, en contrepartie soit du droit d'exploiter l'ouvrage ou le service qui fait l'objet du contrat, soit de ce droit assorti d'un prix. »
+   Quant aux marchés publics, ils sont définis à l’article L1111-1 du code de la commande publique :
+ « Un marché est un contrat conclu par un ou plusieurs acheteurs soumis au présent code avec un ou plusieurs opérateurs économiques, pour répondre à leurs besoins en matière de travaux, de fournitures ou de services, en contrepartie d'un prix ou de tout équivalent. »
+      
+
+2 – La typologie des contrats de concession 
+Rappel des définitions données dans le cours sur le service public :
+  * Constitue un contrat de concession de service public tout contrat par lequel une personne (en principe publique et dénommée « autorité concédante ») confie la gestion d’un service public à une personne privée ou publique (dénommée « concessionnaire »), tout en lui transférant le risque lié à l’exploitation du service, en contrepartie soit du droit d’exploiter le service, soit de ce droit assorti d’un prix 
+Code de la commande publique, article L1121-1 ;
+  * Constitue un contrat de délégation de service public tout contrat par lequel une collectivité territoriale (dénommée « autorité délégante ») confie la gestion d’un service public à une personne privée ou publique (dénommée « délégataire »), tout en lui transférant le risque lié à l’exploitation du service, en contrepartie soit du droit d’exploiter le service, soit de ce droit assorti d’un prix. Code de la commande publique, article L.1121-3.
+       « Contrat de délégation de service public », tel est le nom que l’on donne à un contrat de concession conclu par une collectivité territoriale (Voir schéma de la page précédente). Elle constitue une sous-catégorie de la catégorie des contrats de concession de service public, tout comme l’affermage et la régie intéressée qui sont définis ci-dessous.
+      À preuve, la définition qu’en donne l’article L.1121-3 du code de la commande publique et dont nous nous sommes inspiré : 
+      « Une La délégation de service public mentionnée à l'article L. 1411-1 du code général des collectivités territoriales est une concession de services ayant pour objet un service public et conclue par une collectivité territoriale, un établissement public local, un de leurs groupements, ou plusieurs de ces personnes morales. »  
+*
+3 – La typologie des marchés publics 
+Rappel : « Un marché est un contrat conclu par un ou plusieurs acheteurs soumis au présent code avec un ou plusieurs opérateurs économiques, pour répondre à leurs besoins en matière de travaux, de fournitures ou de services, en contrepartie d'un prix ou de tout équivalent. » Code de la commande publique, article L1111-1.
+À l’instar des contrats de concession, les marchés publics peuvent être présentés comme une espèce dans le genre « contrat administratif ». Cette espèce comprend des sous-espèces.
+Le code de la commande publique définit les différentes catégories de marchés publics dans la continuité directe des définitions données par les directives communautaires.
+La définition de chaque catégorie de marchés est particulièrement importante au regard des modalités de calcul du montant du marché ; et ce montant détermine certains modes de passation des marchés publics – cf. infra La conclusion des marchés publics.
+*
+* Trois catégories de marchés publics définies par le code de la commande publique :
+
+
+1. Les marchés publics de travaux : 
+« Un marché public de travaux a pour objet :
+1° Soit l'exécution, soit la conception et l'exécution de travaux dont la liste figure dans un avis annexé au présent code ;
+2° Soit la réalisation, soit la conception et la réalisation, par quelque moyen que ce soit, d'un ouvrage répondant aux exigences fixées par l'acheteur qui exerce une influence déterminante sur sa nature ou sa conception.
+Un ouvrage est le résultat d'un ensemble de travaux de bâtiment ou de génie civil destiné à remplir par lui-même une fonction économique ou technique. »
+Code la commande publique, article L1111-2
+*
+2. Les marchés publics de fournitures : 
+« Un marché public de fournitures a pour objet l'achat, la prise en crédit-bail, la location ou la location-vente de produits. »
+Code la commande publique, article L1111-3
+      Un marché public de fournitures peut comprendre, à titre accessoire, des travaux de pose et d'installation. 
+      La notion de marché public de fournitures se limite aux marchés portant sur des objets mobiliers ; elle ne couvre pas les ventes, locations-ventes ou contrats de crédit-bail relatifs à des biens immobiliers.
+*
+3. Les marchés publics de services : 
+      « Un marché public de services a pour objet la réalisation de prestations de services. »
+Code la commande publique, article L1111-4 
+      La notion de marchés de services doit être entendue de manière extensive. Elle recouvre par exemple :
+       * les marchés de prestations intellectuelles
+       * ou les marchés de services financiers.
+      Plus concrètement, il peut s’agir
+       * de services matériels (entretien de locaux, par exemple) 
+       * ou de services immatériels (conseil juridique, projet informatique, etc.).
+      Un marché public relevant d'une des trois catégories mentionnées ci-dessus (travaux, fournitures et services) peut comporter, à titre accessoire, des éléments relevant d'une autre catégorie. C’est ce que l’on appelle parfois un marché mixte.
+
+      B – Les modes de conclusion
+
+1 – La conclusion des marchés publics
+a – Les principes
+ Le code de la commande publique impose aux acheteurs publics, c’est-à-dire aux personnes publiques qui passent des marchés publics deux obligations de comportement : l'efficacité de la commande publique et la bonne utilisation des deniers publics (Article L3). 
+Compte tenu de ces obligations, la passation des marchés publics est fondée sur trois principes solidaires énoncés à l’article L3 du code de la commande publique :
+- le principe de la liberté d'accès à la commande publique, 
+- le principe de l’égalité de traitement des candidats aux marchés publics
+- et le principe de la transparence des procédures
+Le principe de la liberté d’accès interdit à « l’acheteur public » (c’est-à-dire, en pratique, la personne publique)
+       * d’édicter des exigences qui ne seraient pas justifiées par l’objet du marché
+       * ou d’exclure des candidats qui satisfont à toutes les exigences édictées.
+L’égalité consacrée implique la fixation préalable de règles du jeu claires pour garantir la libre concurrence.
+L’administration doit ainsi mettre tous les candidats dans la même situation au regard de l’information sur les conditions du marché à conclure.
+L’obligation de transparence qui incombe à l’acheteur public (c’est-à-dire à la personne publique contractante) consiste à garantir, en faveur de tout soumissionnaire potentiel, un degré de publicité adéquat permettant une ouverture du marché à la concurrence ainsi que le contrôle de l’impartialité des procédures d’attribution du marché.
+
+b – Les seuils de la publicité et les seuils des procédures
+ La personne publique qui souhaite conclure un marché public doit nécessairement se poser les questions suivantes :
+1. Ai-je l’obligation de procéder à de la publicité ?  Si oui, sous quelle forme ? 
+2. Ai-je l’obligation de passer le marché selon une certaine procédure ?  Si oui, laquelle ? 
+ En ce qui concerne la publicité et les procédures, le code de la commande publique prend en considération le montant estimé du marché, l’objet du marché et l’identité de l’acheteur public les seuils étant actualisés tous les deux ans. 
+ Il existe deux types de seuils « européens » qu’il faut veiller à ne pas confondre et que nous exposerons successivement :
+* Les seuils de la publicité : quelle publicité pour quel montant 
+* Les seuils des procédures : quelle procédure pour quel montant 
+i – Les seuils de la publicité
+ La personne publique désireuse de conclure un marché public est-elle tenue à une obligation de publicité ?  Si oui, quelle forme cette publicité doit-elle revêtir ? 
+ Les réponses à ces deux questions varient en fonction
+* du montant estimé du marché, 
+* de l’objet du marché (travaux, fournitures ou services)
+* et de l’identité de la personne publique (pour l’essentiel, État ou collectivité territoriale).
+ii – Les seuils des procédures
+La personne publique désireuse de conclure un marché public est-elle tenue au respect d’une certaine procédure ?  Si oui, quelles formes cette publicité doit-elle revêtir ? 
+Les réponses à ces deux questions varient en fonction
+* du montant estimé du marché, 
+* de l’objet du marché (travaux, fournitures ou services)
+* et de l’identité de la personne publique (pour l’essentiel, Etat ou collectivité territoriale)
+c – Les procédures non formalisées
+i – La procédure adaptée
+* Définition : La procédure adaptée est une procédure par laquelle l'acheteur définit librement les modalités de passation du marché, dans le respect des principes de la commande publique, à l'exception des dispositions relatives à des obligations inhérentes à un achat selon une procédure formalisée. 
+Code de la commande publique, article L2123-1.
+ Les marchés passés selon une procédure adaptée sont dénommés MAPA (Marchés à procédure adaptés).
+
+ii – La procédure négociée sans publicité ni mise en concurrence préalables
+* Définition : La procédure négociée sans publicité ni mise en concurrence préalables, c'est le mode conclusion par lequel l'acheteur choisit son cocontractant à la suite d'une négociation conduite sans publicité ni mise en concurrence préalables, mais dans le respect des grands principes de la commande publique (égalité de traitement des candidats, transparence des procédures).
+ Code de la commande publique, article L2122-1 : « L'acheteur peut passer un marché sans publicité ni mise en concurrence préalables dans les cas fixés par décret en Conseil d'Etat lorsque, en raison notamment de l'existence d'une première procédure infructueuse, d'une urgence particulière, de son objet ou de sa valeur estimée, le respect d'une telle procédure est inutile, impossible ou manifestement contraire aux intérêts de l'acheteur. »
+
+d – Les procédures formalisées
+ Il s’agit de procédures dont le contenu est déterminé à l’avance par le code de la commande publique.
+i – L’appel d’offres
+
+* Définition : L’appel d’offres, ouvert ou restreint, est la procédure par laquelle l’acheteur [la personne publique] choisit l’offre économiquement la plus avantageuse [donc son cocontractant], sans négociation, sur la base de critères objectifs préalablement portés à la connaissance des candidats. 
+Code de la commande publique, article L2124-2
+ L’appel d’offres peut être ouvert ou restreint.
+L’article L2324-2 code de la commande publique pose un principe : « Lorsque l'acheteur choisit de recourir à l'appel d'offres défini à l'article L. 2124-2, cet appel d'offres est restreint. »
+     1. Il est ouvert lorsque tout opérateur économique intéressé peut soumissionner, c’est-à-dire déposer une offre. 
+     2. Il est restreint lorsque seuls les candidats présélectionnés par la personne publique peuvent déposer une offre. La pré-sélection est effectuée sur la base du chiffre d'affaires, des compétences professionnelles, des moyens humains et techniques.
+ La personne responsable du marché est libre de choisir entre les deux formes d'appel d'offres.
+Lorsqu’elle décide de lancer un appel d’offres ouvert, elle ne peut pas, en cours de procédure, le transformer en appel d’offres restreint. 
+
+ii – La procédure avec négociation
+* Définition : La procédure avec négociation est la procédure par laquelle l’acheteur [la personne publique] négocie les conditions du marché public avec un ou plusieurs opérateurs économiques. Code de la commande publique, article L2124-3.
+
+iii – Le dialogue compétitif
+* Définition : Le dialogue compétitif est la procédure par laquelle l'acheteur dialogue avec les candidats admis à y participer en vue de définir ou développer les solutions de nature à répondre à ses besoins et sur la base desquelles ces candidats sont invités à remettre une offre.
+Ordonnance Code de la commande publique, article L2124-4
+
+2 – La conclusion des contrats de délégation de service public 
+     Rappel : 
+  * Constitue un contrat de délégation de service public tout contrat par lequel une collectivité territoriale (dénommée « autorité délégante ») confie la gestion d’un service public à une personne privée ou publique (dénommée « délégataire »), tout en lui transférant le risque lié à l’exploitation du service, en contrepartie soit du droit d’exploiter le service, soit de ce droit assorti d’un prix. Code général des collectivités territoriales - Article L1411-1.
+ « Contrat de délégation de service public », tel est donc le nom que l’on donne à un contrat de concession conclu par une collectivité territoriale (Voir schéma de la page 34). Elle constitue une sous-catégorie de la catégorie des contrats de concession de service public.
+À preuve, la définition qu’en donne l’article L.1411-1du code général des collectivités territoriales et dont nous nous sommes inspiré tout en l’explicitant : 
+« Une délégation de service public est un contrat de concession au sens de l'ordonnance n° 2016-65 du 29 janvier 2016 relative aux contrats de concession, conclu par écrit, par lequel une autorité délégante confie la gestion d'un service public à un ou plusieurs opérateurs économiques, à qui est transféré un risque lié à l'exploitation du service, en contrepartie soit du droit d'exploiter le service qui fait l'objet du contrat, soit de ce droit assorti d'un prix. »  
+ Actuellement, les contrats de délégation de service public sont régis
+1. par les règles et principes communs aux contrats de concession et qui résultent, pour l’essentiel, du code de la commande publique,
+2. et par les règles spécifiques des articles L.1411-1 à L.1411-19 du code général des collectivités territoriales.
+
+a – Les principes
+ Les trois principes régissant la conclusion des contrats de concession (dont font partie, rappelons-le, les contrats de délégation de service public) sont énoncés à l’article L3 du code de la commande publique :
+« Les acheteurs et les autorités concédantes respectent le principe d'égalité de traitement des candidats à l'attribution d'un contrat de la commande publique. Ils mettent en œuvre les principes de liberté d'accès et de transparence des procédures, dans les conditions définies dans le présent code.
+Ces principes permettent d'assurer l'efficacité de la commande publique et la bonne utilisation des deniers publics. »
+
+b – La procédure
+i – La décision de procéder à une délégation de service public
+ Cette décision est prise par l’assemblée délibérante de la collectivité concernée : conseil municipal, conseil départemental, conseil régional, etc.
+Tel est le sens de l’article L.1411-4 du code général des collectivités territoriales :
+« Les assemblées délibérantes des collectivités territoriales, de leurs groupements et de leurs établissements publics se prononcent sur le principe de toute délégation de service public local après avoir recueilli l'avis de la commission consultative des services publics locaux […] Elles statuent au vu d'un rapport présentant le document contenant les caractéristiques des prestations que doit assurer le délégataire. »
+
+ii – La publicité et la mise en concurrence
+L'article L3122-1 du code de la commande publique dispose :
+« Afin de susciter la plus large concurrence, les autorités concédantes procèdent à une publicité dans les conditions et sous réserve des exceptions définies par décret en Conseil d'Etat, selon l'objet du contrat de concession ou sa valeur estimée hors taxe. »
+ Concrètement, l'autorité concédante publie un avis de concession comportant notamment une description de la concession et des conditions de participation à la procédure de passation – Article R3122-1 du code de la commande publique.
+
+iii – Le choix des candidats admis à présenter une offre
+ C’est la phase de présélection. À la suite de la double publication susmentionnée de l’avis de concession, la personne publique reçoit un certain nombre de candidatures.
+Intervient alors une commission composée comme suit :
+Lorsqu'il s'agit d'une région, de la collectivité territoriale de Corse, d'un département, d'une commune de 3 500 habitants et plus et d'un établissement public, par l'autorité habilitée à signer la convention de délégation de service public ou son représentant, président, et par cinq membres de l'assemblée délibérante élus en son sein à la représentation proportionnelle au plus fort reste ;
+Lorsqu'il s'agit d'une commune de moins de 3 500 habitants, par le maire ou son représentant, président, et par trois membres du conseil municipal élus par le conseil à la représentation proportionnelle au plus fort reste – Article L.1411-5 du code général des collectivités territoriales.
+ Cette commission ouvre les plis contenant les candidatures ou les offres et procède à une présélection.
+En pratique, elle dresse la liste des candidats admis à présenter une offre après examen 
+* de leurs garanties professionnelles et financières, 
+* de leur respect de l'obligation d'emploi des travailleurs handicapés 
+* et de leur aptitude à assurer la continuité du service public et l'égalité des usagers devant le service public - Article L.1411-5 du code général des collectivités territoriales.
+ Tels sont les critères de la présélection à la suite de laquelle la commission émet un avis sur le choix du délégataire. 
+ Sur ce point, la procédure rappelle celle de l’appel d’offres restreint.
+ Toutefois, en l’espèce, les critères de la présélection sont en rapport étroit avec l’objet du futur contrat, à savoir la délégation d’un service public. Il paraît légitime de ne retenir que les candidats aptes à respecter les lois du service public à la gestion duquel ils postulent.
+
+iv – La négociation et le choix du délégataire
+ Au vu de l’avis émis par la commission mentionnée ci-dessus (voir ii), l'autorité habilitée à signer la convention de délégation de service public (maire, président du conseil régional ou départemental...) engage librement1 toute discussion utile avec un ou plusieurs candidats présélectionnés ayant présenté une offre.
+La négociation ne peut porter sur l'objet de la concession, les critères d'attribution ou les conditions et caractéristiques minimales indiquées dans les documents de la consultation – Article L3124-1 du code de la commande publique. 
+ Puis, l’autorité habilitée à signer la convention effectue son choix.  
+ Elle transmet ensuite à l'assemblée délibérante (Conseil municipal, départemental ou régional). 
+* le rapport de la commission (mentionnée plus haut dans ce cours, au i) présentant notamment la liste des entreprises admises à présenter une offre et l'analyse des propositions de celles-ci,
+* son choix entre les candidats 
+* les motifs de ce choix 
+* et l'économie générale du contrat.
+ L'assemblée délibérante se réunit alors et se prononce à la fois sur le contrat de délégation et sur le choix du délégataire. Cette réunion ne peut avoir lieu qu’au moins deux mois après la saisine de la commission susmentionnée (voir plus haut, iii).
+
+ 
+c – La durée des contrats de délégation de service public
+ Le code de la commande publique limite la durée des contrats de concession et donc celle des contrats de délégation de service public (qui n’en sont qu’une sous-catégorie) :
+* Article L3114-7 : « La durée du contrat de concession est limitée. Elle est déterminée par l'autorité concédante en fonction de la nature et du montant des prestations ou des investissements demandés au concessionnaire, dans les conditions prévues par voie réglementaire. »
+* Article L3114-8 : « Dans le domaine de l'eau potable, de l'assainissement, des ordures ménagères et autres déchets, les contrats de concession ne peuvent avoir une durée supérieure à vingt ans sauf examen préalable par l'autorité compétente de l'Etat, à l'initiative de l'autorité concédante, des justifications de dépassement de cette durée. Les conclusions de cet examen sont communiquées, le cas échéant, aux membres de l'organe délibérant compétent, avant toute délibération de celui-ci. » 
+
+
+ C – Le contentieux de la conclusion des contrats
+ 
+ Il n’est pas téméraire d’affirmer qu’à l’occasion de tous les recours dont il est question ici, la principale préoccupation du juge se laisse résumer en ces termes :
+Assurer la meilleure conciliation possible entre 
+* d’une part, la protection du principe de légalité, qui régit l’action administrative et qui implique, en la matière, notamment le respect de la liberté d’accès à la commande publique, de l’égalité de traitement des candidats et de la transparence des procédures, 
+* et d’autre part, l’objectif de stabilité des relations contractuelles ainsi que le principe de loyauté des relations contractuelles.
+1 – Les procédures d’urgences réservées aux concurrents évincés ou dissuadés et au préfet
+ Il existe deux procédures d’urgence propres au contentieux de la conclusion des contrats administratifs et qui sont mises en œuvre
+1. l’une, avant la signature du contrat : le référé précontractuel
+2. et l’autre, après la signature du contrat : le référé contractuel 
+ 
+Elles permettent au juge 
+* de prévenir (référé précontractuel) 
+* ou de sanctionner (référé contractuel), 
+dans des délais très courts, des manquements aux règles de publicité et de mise en concurrence.
+*
+ Seuls les concurrents malheureux, appelés « concurrents évincés ou dissuadés », ainsi que le préfet peuvent exercer un référé précontractuel ou un référé contractuel.
+ Dans un important avis contentieux du 11 avril 2012 (Conseil d’État, avis contentieux, 11 avril 2012, Société Gouelle), le Conseil d’État a donné deux précisions sur la qualité de concurrent évincé :
+   1. Il appartient au juge du contrat d’apprécier si le requérant peut être regardé comme un concurrent évincé ;
+   2. La qualité de concurrent évincé est reconnue à tout requérant qui aurait eu intérêt à conclure le contrat, alors même 
+2.1 qu’il n’aurait pas présenté sa candidature, 
+2.2 qu’il n’aurait pas été admis à présenter une offre 
+2.3 ou qu’il aurait présenté une offre inappropriée, irrégulière ou inacceptable.
+
+a – Le référé précontractuel
+ Trouvant son origine dans les directives communautaires dites « Recours » de 1989 et de 1992, le référé précontractuel a été introduit dans le droit français par les lois du 4 janvier 1992 et du 29 décembre 1993, et codifié aux articles L. 551-1 à L. 551-12 et R. 551-1 à R. 551-4 du code de justice administrative.
+     Le référé précontractuel concerne essentiellement, mais non exclusivement bien sûr, les marchés publics et les contrats de délégation de service public.
+ Quatre questions permettront d’en saisir la substance : QUAND ?  QUI ?  POURQUOI ?  COMMENT ? 
+*
+ QUAND le référé précontractuel peut-il être exercé ? 
+ RÉPONSE : Le référé précontractuel est un recours qui n’est recevable qu’avant la conclusion du contrat, d’où l’épithète « précontractuel » (pré = avant).
+Cela dit, aucun délai raisonnable ne s'impose au requérant pour introduire un référé précontractuel ; qui peut ainsi être formé aussi longtemps que le contrat n'a pas été signé - Conseil d’État, 12 juillet 2017, Société Études créations et informatique (ECI).
+     Afin de conserver tout son sens au référé précontractuel, l’article 101 du décret n° 2016-360 du 25 mars 2016 relatif aux marchés publics impose au pouvoir adjudicateur (à la personne publique, pour faire simple), le respect d’un délai dit de « standstill », un délai de suspension de signature du contrat.
+     Explication :
+* Étape 1 : Le pouvoir adjudicateur fait son choix pour une candidature ou une offre. L’entreprise auteur de cette candidature ou de cette offre sera donc ce que l’on appelle l’attributaire ou le titulaire du marché, c’est-à-dire le contractant de la personne publique (article 99 du décret n° 2016-360 du 25 mars 2016 relatif aux marchés publics).
+* Étape 2 : Le pouvoir adjudicateur notifie à tous les autres candidats le rejet de leur candidature ou de leur offre, en leur indiquant les motifs de ce rejet. Cette notification précise le nom de l'attributaire et les motifs qui ont conduit au choix de son offre.
+* Étape 3 : Délai de « standstill ». Bien qu’il ait fait son choix, le pouvoir adjudicateur ne signe pas, ne conclut pas immédiatement le contrat. Il doit attendre l’expiration d’un délai de onze jours (porté à seize jours lorsque la notification n'a pas été transmise par voie électronique). Pendant ce délai dit de standstill, la signature du contrat est donc suspendue, ce qui permet aux concurrents évincés ou dissuadés et au préfet d’exercer, le cas échéant, un référé précontractuel, lequel, on le sait, ne peut être exercé après la signature du contrat.
+* Étape 4 : Après l’expiration du délai dit de standstill, le pouvoir adjudicateur est en droit de signer le contrat, à moins qu’entre-temps un référé précontractuel n’ait été exercé. En effet, à compter de la saisine du tribunal administratif et jusqu’à la notification au pouvoir adjudicateur de la décision du tribunal sur le sort du référé précontractuel, le contrat litigieux ne peut être signé.
+*
+ QUI peut exercer un référé précontractuel ? 
+ RÉPONSE : Le référé précontractuel peut être exercé uniquement par
+* les concurrents évincés (ceux dont l’offre n’a pas été retenue) ou dissuadés (ceux qui n’ont pas pu présenter une offre)2,
+* ainsi que par le préfet.
+*
+ POURQUOI ?  Autrement dit, pour quels motifs un référé précontractuel peut-il être exercé ?  Que peut-on reprocher à la personne publique à l’occasion d’un tel recours ? 
+     RÉPONSE : Le requérant ne peut reprocher à la personne que des manquements aux règles de publicité et de mise en concurrence.
+     Le requérant ne peut toutefois pas se prévaloir de tout manquement aux obligations de publicité et de concurrence. 
+     Il ne peut se prévaloir que des manquements qui, « eu égard à leur portée et au stade de la procédure auquel ils se rapportent, sont susceptibles de l'avoir lésé ou risquent de le léser, fût-ce de façon indirecte en avantageant une entreprise concurrente » - Conseil d’État, Section, 3 octobre 2008, Syndicat mixte intercommunal de réalisation et de gestion pour l’élimination des ordures ménagères du secteur Est de la Sarthe (SMIRGEOMES).
+*
+ COMMENT ?  En d’autres termes, quelle est la procédure du référé précontractuel ? 
+   RÉPONSE : La procédure du référé précontractuel a été voulue simple et précise.
+     Aux termes de l’article R. 551-1 du code justice administrative4, le requérant est tenu de notifier son recours (donc le référé précontractuel) au pouvoir adjudicateur. Cette notification, qui doit être faite en même temps que le dépôt du recours, est réputée accomplie à la date de sa réception par le pouvoir adjudicateur. Ainsi ce dernier saura qu’un référé précontractuel a été exercé et qu’elle ne peut pas signer le contrat.
+     Le non-respect.de la formalité de la notification par le requérant
+        * ne rend pas irrecevable le référé précontractuel - Conseil d’État, 10 novembre 2010, Ministre de la défense contre Société MTG,
+        * mais fait obstacle à ce que le requérant puisse ultérieurement introduire un référé contractuel en cas de rejet de son référé précontractuel - Conseil d’État, 30 septembre 2011, Commune de Maizières-les-Metz contre SDI Extraction.   
+     Une fois saisi, le président du tribunal administratif, ou son délégué, statue dans un délai de vingt jours. En pratique, il dépasse souvent ce délai sans pour autant se retrouver dessaisi : Conseil d’État, Section, 3 novembre 1995, District de l’agglomération nancéienne. L’ordonnance du juge est susceptible de pourvoi en cassation devant le Conseil d’État dans la quinzaine de sa notification.
+     À compter de la saisine du tribunal administratif et jusqu’à la notification à la collectivité publique de la décision juridictionnelle sur le sort du référé précontractuel, le contrat litigieux ne peut être signé - Ordonnance n° 2009-515 du 7 mai 2009.
+*
+    Le juge du référé précontractuel dispose de larges pouvoirs :
+« Il peut ordonner à l'auteur du manquement de se conformer à ses obligations et suspendre l'exécution de toute décision qui se rapporte à la passation du contrat, sauf s'il estime, en considération de l'ensemble des intérêts susceptibles d'être lésés et notamment de l'intérêt public, que les conséquences négatives de ces mesures pourraient l'emporter sur leurs avantages. Il peut, en outre, annuler les décisions qui se rapportent à la passation du contrat et supprimer les clauses ou prescriptions destinées à figurer dans le contrat et qui méconnaissent lesdites obligations. » - Article L551-2 du code justice administrative.
+*
+b – Le référé contractuel
+      Une fois le contrat conclu, les concurrents évincés ne peuvent plus exercer un référé précontractuel, celui-ci devant, comme on l’a vu, nécessairement intervenir avant la signature du contrat (d’où, rappelons-le l’épithète précontractuel).
+      Ils ne sont toutefois pas démunis. 
+    L’ordonnance n° 2009-515 du 7 mai 2009 a introduit un nouveau recours d’urgence : le référé contractuel.
+    Quatre questions permettront d’en saisir la substance : QUAND ?  QUI ?  POURQUOI ?  COMMENT ? 
+*
+ QUAND le référé contractuel peut-il être exercé ? 
+   RÉPONSE : Contrairement au référé précontractuel, le référé contractuel ne peut être exercé qu’après la conclusion du contrat, et ce, 
+        * dans un délai de 30 jours suivant la publication de l’avis d'attribution du contrat au candidat retenu5
+        * ou, en l’absence de publication de l’avis d'attribution du contrat, dans un délai de six mois à compter du lendemain de la conclusion du contrat.
+*
+ QUI peut exercer un référé contractuel ? 
+ RÉPONSE : les concurrents évincés (ou dissuadés) de la conclusion du contrat ainsi que le préfet. 
+     Toutefois, le référé contractuel ne peut être exercé contre un contrat X par un concurrent évincé lorsque ce dernier a déjà fait usage, contre le même contrat X avant sa signature, d’un référé précontractuel, soit dans le délai de suspension de signature (voir supra, référé précontractuel), soit après son expiration, dans les cas suivants : 
+ 1. si la personne publique a respecté l'obligation de suspension de la signature du contrat qui s'imposait à lui lors de l’examen du référé précontractuel - Conseil d’État, 24 juin 2011, Office public de l'habitat interdépartemental de l'Essonne, du Val d'Oise et des Yvelines et Société Seni contre Société APS ; Conseil d’État, 2 août 2011, Société Clean Garden ;
+ 2. si la personne publique n’a pas respecté cette obligation de suspension du fait qu’elle a été laissée dans l'ignorance du référé précontractuel par le requérant ayant méconnu sa propre obligation de notifier à la personne publique son référé précontractuel - Conseil d’État, 30 septembre 2011, Commune de Maizières-les-Metz contre SDI Extraction ; cf. supra, page 44 ;
+ 3. si, le cas échéant, la personne publique s’est conformée à la décision juridictionnelle rendue sur le référé précontractuel - Conseil d’État, 24 juin 2011, Office public de l'habitat interdépartemental de l'Essonne, du Val d'Oise et des Yvelines et Société Seni contre Société APS.
+*
+ POURQUOI ?  Pour quels motifs peut-on exercer un référé contractuel ?  Autrement dit, quelles illégalités peut-on invoquer à l’appui d’un référé contractuel ? 
+RÉPONSE : Contrairement à ce qu’il en est pour le référé précontractuel, seules les atteintes les plus graves aux règles de publicité et de mise en concurrence peuvent être invoquées dans le cadre du référé contractuel : 
+        * absence totale de publicité alors que des mesures de publicité étaient requises, 
+        * omission de publication au Journal officiel de l'Union européenne dans le cas où une telle publication était obligatoire, 
+        * signature du contrat intervenue 
+            o soit avant l’expiration du délai dit « de standstill » (délai minimal exigé après la notification de la décision d’attribution aux candidats évincés, afin de leur permettre de présenter en temps utile, le cas échéant, un référé précontractuel), 
+            o soit en violation de la suspension de la signature du contrat qui s’impose en cas de saisine du juge du référé précontractuel, 
+        * et enfin, méconnaissance des modalités de remise en concurrence prévues pour la passation des contrats fondés sur un accord-cadre ou un système d'acquisition dynamique.
+*
+ COMMENT le référé contractuel doit-il être exercé ? 
+ RÉPONSE : le concurrent évincé doit saisir le président du tribunal administratif ou son délégué.
+*
+    Le juge du référé contractuel dispose de pouvoirs importants, qui sont en fait à la mesure de la gravité des manquements aux obligations de publicité et de mise en concurrence que le juge a pour mission de sanctionner. 
+Ainsi, le juge peut-il 
+* suspendre l’exécution du contrat pendant la durée de l’instance, 
+* annuler le contrat, 
+* ou, lorsqu’une telle annulation se heurte à une raison impérieuse d'intérêt général, sanctionner le manquement commis 
+- soit par la résiliation pour l’avenir seulement du contrat, 
+- soit par la réduction de sa durée, 
+- ou encore par une pénalité financière.
+
+2 – Le recours de plein contentieux ouvert aux parties : Jurisprudence dite Béziers I  
+     Même si le cas peut surprendre, il arrive qu’une partie conteste directement devant le juge la validité du contrat. 
+     Dans une telle hypothèse, le juge du contrat, en l’occurrence le juge administratif, fera application des principes énoncés par l’importante décision Conseil d’État, Assemblée, 28 décembre 2009, Commune de Béziers.
+     Tout d’abord, la réalité du principe de ce recours ne fait pas l’ombre d’un doute : « Considérant, en premier lieu, que les parties à un contrat administratif peuvent saisir le juge d'un recours de plein contentieux contestant la validité du contrat qui les lie ; » - décision précitée Commune de Béziers.
+*
+ Dans quel délai, un tel recours peut-il être exercé ? 
+RÉPONSE : Cette action est ouverte aux parties au contrat pendant toute la durée d'exécution de celui-ci – Conseil d’État, Section, 1er juillet 2019, Association pour le musée des Iles Saint-Pierre et Miquelon.
+ Quel sera alors l’office du juge ?  Autrement dit, que peut ou doit faire le juge ? 
+RÉPONSE : Conseil d’État, Assemblée, 28 décembre 2009, Commune de Béziers, arrêt dit « Béziers I ».
+NOTA BENE : L’arrêt « Béziers I », qui nous occupe ici, ne doit pas être confondu avec l’arrêt « Béziers II » (Conseil d’État, Section, 21 mars 2011, Commune de Béziers), que nous retrouverons dans le III de ce cours et qui concerne le recours de plein contentieux contestant la validité d’une mesure de résiliation d’un contrat et tendant à la reprise des relations contractuelles.
+   > Voici donc, selon l’arrêt « Béziers I », l’office (les pouvoirs) du juge saisi par une partie à un contrat administratif d’une contestation directe portant sur la validité de ce contrat.
+ 1. Le juge ne décide pas mécaniquement, en présence d’irrégularités, d’annuler le contrat. Il dispose au contraire d’une large palette de solutions, en fonction des irrégularités en cause et en tenant compte de l’exigence de loyauté des relations contractuelles, de l’objectif de stabilité des relations contractuelles et de l’intérêt général.
+ 2. En préambule, il vérifiera tout d’abord que la partie qui se prévaut d’une irrégularité est, compte tenu de l’exigence de loyauté des relations contractuelles, recevable à le faire – ce qui peut par exemple ne pas être le cas si la partie est l’auteur de l’irrégularité en cause. 
+ 3. Si tel est le cas, le juge pourra ensuite, en fonction de la nature et de l’importance de l’irrégularité, retenir l’une des solutions suivantes :
+ * décider que la poursuite de l’exécution du contrat est possible, éventuellement sous réserve de mesures de régularisation prises par la personne publique ou convenues entre les parties. 
+ * prononcer, le cas échéant avec un effet différé, après avoir vérifié que sa décision ne portera pas une atteinte excessive à l’intérêt général, la résiliation du contrat pour l’avenir. 
+ * prononcer l’annulation rétroactive du contrat, mais uniquement en raison d’une irrégularité, invoquée par une partie ou relevée d’office par lui, tenant au caractère illicite du contenu même du contrat ou à un vice d’une particulière gravité relatif notamment aux conditions dans lesquelles les parties ont donné leur consentement.
+
+On le voit, la « jurisprudence Béziers I » (Conseil d’État, Assemblée, 28 décembre 2009, Commune de Béziers) donne une grande marge de manœuvre au juge saisi par une partie à un contrat administratif d’une contestation portant sur la validité de ce contrat.
+*
+3 – La nouvelle voie de recours direct contre le contrat ouverte à tous les tiers susceptibles d’être lésés : Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne
+ En vertu d’une tradition séculaire, le recours en contestation de la validité d’un contrat administratif était, exception faite de ce tiers particulier qu’est le préfet, réservé aux seules parties.
+ Le rapporteur public Dacosta décrit bien comment la jurisprudence avait fermé aux tiers la possibilité de contester directement un contrat administratif : « Le juge de l’excès de pouvoir ne pouvait connaître du contrat. Le juge du contrat ne pouvait être saisi que par les parties. »6
+ Ce mur dressé devant les tiers sera ébréché à plusieurs à plusieurs reprises avant de s’effondrer avec l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne.
+Les étapes qui ont conduit à la chute du mur se laissent décrire simplement.
+a – Chronique de la chute du mur dressé entre les tiers et le contrat administratif
+i – L’admission du droit pour les tiers de former un recours pour excès de pouvoir contre les actes détachables du contrat – Conseil d’État, 4 août 1905, Martin.
+Dans la décision Conseil d’État, 4 août 1905, Martin, le Conseil d’État estime que le tiers, dès lors qu’il a intérêt à agir, peut demander au juge de l’excès de pouvoir d’annuler les actes détachables du contrat administratif. 
+Par « actes détachables du contrat », il faut entendre les actes administratifs préalables à la conclusion du contrat, et qui n’ont d’autre portée que de permettre la formation du lien contractuel : décision de choisir le cocontractant (de sélectionner ou de rejeter une offre), autorisation de conclure le contrat, décision de signer le contrat, etc. 
+Toutefois, comme le reconnaîtra plus tard le Conseil d’État, l’annulation d’un acte « détachable » illégal ne débouchait qu’exceptionnellement sur l’annulation par ricochet du contrat lui-même : « l'annulation d'un acte détachable d'un contrat n'implique pas nécessairement la nullité dudit contrat. » - Conseil d’État, 21 février 2011, Société VEOLIA Propreté. 
+En effet, le requérant qui a obtenu cette annulation devait s’adresser au juge de l’exécution de cette décision juridictionnelle d’annulation.
+Certes, « le juge, saisi de conclusions tendant à ce que soient prescrites les mesures d'exécution qu'impliquent nécessairement l'annulation d'un acte détachable d'un contrat, est tenu d'assurer l'exécution de la chose jugée s'attachant tant au dispositif qu'aux motifs qui en sont le support nécessaire, sans pouvoir retenir un autre motif que celui retenu comme fondement de cette annulation » - Conseil d’État, 21 février 2011, Société VEOLIA Propreté.
+Il bénéficie toutefois d’une certaine latitude, car Il lui appartient « après avoir pris en considération la nature de l’illégalité commise, soit de décider que la poursuite de l’exécution du contrat est possible, éventuellement sous réserve de mesures de régularisation prises par la personne publique ou convenues entre les parties, soit, après avoir vérifié que sa décision ne portera pas une atteinte excessive à l’intérêt général, d’enjoindre à la personne publique de résilier le contrat, le cas échéant avec un effet différé, soit, eu égard à une illégalité d’une particulière gravité, d’inviter les parties à résoudre leurs relations contractuelles ou, à défaut d’entente sur cette résolution, à saisir le juge du contrat afin qu’il en règle les modalités s’il estime que la résolution peut être une solution appropriée. » - Conseil d’État, 21 février 2011, Société VEOLIA Propreté.
+On le voit bien, ce parcours semé d’embûches présente « le risque structurel de retarder le moment où le contentieux sera purgé ». 
+La voie du recours pour excès de pouvoir contre les actes détachables du contrat, qui pouvait faire intervenir jusqu’à trois juges (juge de l’excès de pouvoir, juge de l’exécution et juge du contrat), n’était donc pas satisfaisante.
+
+ii – L’introduction législative du déféré préfectoral
+La loi du 2 mars 1982 a permis au préfet de déférer au tribunal administratif les contrats conclus par les collectivités territoriales et leurs établissements publics. 
+Il est vrai que le préfet est un tiers particulier. 
+Cela dit, le pouvoir qui lui est donné de contester devant le juge la validité d’un contrat n’en constitue pas moins une brèche dans le mur dressé entre les tiers et le contrat.
+
+iii – L’admission du droit pour les tiers de former un recours pour excès de pouvoir contre les clauses réglementaires d’un contrat – Conseil d’État, Assemblée, 10 juillet 1996, Cayzeele
+Certains contrats administratifs, tels les contrats de concession, sont de nature mixte : ils comportent des clauses de nature réglementaire (unilatérale), en plus des clauses contractuelles attendues. 
+Dans sa décision Conseil d’État, Assemblée, 10 juillet 1996, Cayzeele, le Conseil d’État estime que les tiers y ayant intérêt peuvent demander au juge de l’excès de pouvoir l’annulation de ces clauses réglementaires dans la mesure où elles sont divisibles des clauses contractuelles.
+Plus tard, le Conseil d’État jugera que ces clauses réglementaires sont par nature divisibles de l’ensemble du contrat, « affirmation hardie mais nécessaire pour assurer la recevabilité de tels recours »7 (Conseil d’État, Section, 8 avril 2009, Association Alcaly et autres).
+
+iv – L’admission du droit pour les tiers de former un recours pour excès de pouvoir contre les contrats de recrutement d’agents publics – Conseil d’État, Section, 30 octobre 1998, Ville de Lisieux
+La reconnaissance de cette voie de recours n’est pas surprenante, tant il est vrai que les contrats de recrutement d’agents publics dérogent sur bien des points au droit commun des contrats administratifs - Conseil d’État, Section, 30 octobre 1998, Ville de Lisieux.
+
+v – L’ouverture d’une voie de contestation directe de la validité du contrat au profit des concurrents évincés ou dissuadés – Conseil d’État, 16 juillet 2007, Société Tropic Travaux Signalisation
+Rappelons que l’on qualifie de « concurrents évincés ou dissuadés » les personnes qui auraient eu intérêt à conclure le contrat, c’est-à-dire les personnes qui soit ont vu leur offre rejetée par la personne publique, soit n’ont pu présenter une offre en raison d’un manquement de la personne publique à ses obligations, notamment en matière de publicité.
+
+b – L’ouverture actuelle à tous les tiers justifiant d’un intérêt lésé par un contrat administratif de la possibilité de contester sa validité devant le juge du contrat – Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne
+Cette sixième étape marque le terme de l’évolution. L’importance et la portée de la solution qu’elle consacre exigeaient la mise en perspective historique à laquelle nous nous sommes employé.
+Il nous reste maintenant à détailler cette solution représentative de l’état actuel du droit. Nous le ferons par le biais de la méthode, déjà utilisée, des questions-réponses.
+
+Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne : 
+QUOI ?  QUI ?  QUAND ?  COMMENT ? 
+*
+ QUOI ?  Autrement dit, que consacre l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne ? 
+ RÉPONSE : L’arrêt Département de Tarn-et-Garonne du 4 avril 2014 consacre 
+        * une nouvelle voie de recours direct contre les contrats administratifs
+        * et l’extinction partielle du droit de former un recours pour excès de pouvoir contre les actes détachables d’un contrat administratif.
+
+ QUI bénéficie de cette nouvelle voie de recours direct contre le contrat administratif ? 
+ RÉPONSE : tous les tiers justifiant d’un intérêt susceptible d’être lésé de façon suffisamment directe et certaine par la passation du contrat ou par ses clauses ;
+        * Autrement dit, tous les tiers justifiant d’un intérêt susceptible d’être lésé de façon suffisamment directe et certaine par la passation d’un contrat administratif ou par ses clauses sont recevables à former devant le juge du contrat un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles8 ;
+        * Cette action directe devant le juge du contrat est également ouverte aux membres de l’organe délibérant de la collectivité territoriale ou du groupement de collectivités territoriales concerné (c’est-à-dire aux élus locaux) ainsi qu’au représentant de l’Etat dans le département (c’est-à-dire au préfet).
+
+ QUAND (c’est-à-dire dans quel délai) ce recours direct contre le contrat administratif doit-il être exercé ? 
+ RÉPONSE : 
+        * Ce recours doit être exercé, y compris si le contrat contesté est relatif à des travaux publics, dans un délai de deux mois à compter de l’accomplissement des mesures de publicité appropriées, notamment au moyen d’un avis mentionnant à la fois la conclusion du contrat et les modalités de sa consultation.
+
+ COMMENT ?  En d’autres termes, quelles irrégularités (ou quels vices ou moyens) le requérant est-il recevable à invoquer au soutien de sa contestation de la validité du contrat ou de certaines de ses clauses ? 
+ RÉPONSE : Cela dépend de la qualité du requérant :
+        * Le préfet et les élus de la collectivité territoriale ou du groupement de collectivités territoriales concerné, compte tenu des intérêts dont ils ont la charge, peuvent invoquer tout moyen (c’est-à-dire toute irrégularité) à l’appui de leur recours ;
+        * En revanche, les autres tiers ne peuvent invoquer que des vices (c’est-à-dire des irrégularités, vices ou moyens) en rapport direct avec l’intérêt lésé dont ils se prévalent ou ceux d’une gravité telle que le juge devrait les relever d’office.
+
+    Une fois saisi, le juge dispose de pouvoirs importants. Ainsi peut-il décider, après avoir pris en considération la nature de l’illégalité éventuellement commise, 
+* la résiliation du contrat (pour l’avenir, naturellement), 
+* la modification de certaines de ses clauses, 
+* la poursuite de son exécution, éventuellement sous réserve de mesures de régularisation par la collectivité contractante, 
+* l’octroi d’une indemnité au demandeur en réparation des droits lésés,
+* l’annulation (en principe rétroactive) totale ou partielle, avec ou sans effet différé, du contrat, mais uniquement si les vices constatés le justifient, et si cette annulation ne porte pas une atteinte excessive à l’intérêt général ou aux droits des cocontractants.
+
+Nota bene : En raison de l’impératif de sécurité juridique tenant à ce qu’il ne soit pas porté une atteinte excessive aux relations contractuelles en cours, la nouvelle voie de recours ouverte par la décision Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne ne pourra être exercée par les tiers qui n’en bénéficiaient pas auparavant que contre les contrats signés à compter de la date de cette décision (à savoir le 4 avril 2014). Pour les contrats signés avant cette date, l’ancienne voie de recours contre les actes « détachables » leur reste ouverte.
+Conséquence. Dans le sillage de la décision Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne, le Conseil d’État estime :
+Un tiers à un contrat administratif, susceptible d'être lésé dans ses intérêts de façon suffisamment directe et certaine par une décision refusant de faire droit à sa demande de mettre fin à l'exécution du contrat, est recevable à former devant le juge du contrat un recours de pleine juridiction tendant à ce qu'il soit mis fin à l'exécution du contrat - Conseil d’État, Section, 30 juin 2017, Syndicat mixte de promotion de l’activité transmanche.
+
+4 – Le recours pour excès de pouvoir contre les actes détachables du contrat, une voie désormais réservée en principe au préfet
+    Rappelons que par actes détachables du contrat, il faut entendre des actes qui, bien que se rapportant au contrat, en sont juridiquement et intellectuellement dissociables parce que distincts du contrat lui-même, tout en n’ayant d’autre portée que de permettre la formation du lien contractuel : décision de choisir le cocontractant (de sélectionner ou de rejeter une offre), autorisation de conclure le contrat, décision de signer le contrat, etc.
+    On se souvient également que, pendant longtemps, la jurisprudence avait érigé un mur entre le contrat administratif et les tiers, qui, au contraire des parties, ne pouvaient en contester directement la validité : « Le juge de l’excès de pouvoir ne pouvait connaître du contrat. Le juge du contrat ne pouvait être saisi que par les parties. »10 Une première brèche avait été ouverte par la décision Conseil d’État, 4 août 1905, Martin, selon laquelle les tiers, dès lors qu’ils ont intérêt à agir, peuvent demander au juge de l’excès de pouvoir d’annuler les actes détachables du contrat administratif.
+    Avec l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne, on l’a vu, le mur s’est effondré : tous les tiers justifiant d’un intérêt susceptible d’être lésé de façon suffisamment directe et certaine par la passation d’un contrat administratif ou par ses clauses sont recevables à former devant le juge du contrat un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles.
+    Si les tiers se sont vu reconnaître par l’arrêt Département de Tarn-et-Garonne, une voie nouvelle de contestation de la validité du contrat, ils se sont vu fermer par la même décision la possibilité que leur avait donnée l’arrêt Conseil d’État, 4 août 1905, Martin,de demander directement l’annulation des actes détachables du contrat.
+    La disparition, provoquée par l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne, de la possibilité de demander directement l’annulation des actes détachables du contrat doit toutefois être comprise de la manière qui suit.
+Principe :
+ 1. De tous les tiers, seul, en principe, le préfet peut continuer à demander directement l’annulation des actes détachables du contrat, et ce, jusqu’à la conclusion du contrat, date à laquelle les recours déjà engagés par le préfet et non encore jugés perdent leur objet. Le préfet tient ce pouvoir de la loi (déféré préfectoral), à laquelle naturellement l’arrêt Département de Tarn-et-Garonne n’a pu porter atteinte ;
+ 2. Les autres tiers (élus locaux compris) ne peuvent contester la légalité des actes détachables du contrat qu’à l’occasion de l’exercice du recours nouveau défini par l’arrêt qui leur permet de contester directement la validité du contrat.
+Exceptions : 
+Les tiers continuent d’être recevables à contester devant le juge de l’excès de pouvoir les actes détables suivants :
+ * l’acte administratif portant approbation du contrat par une autorité qui n’y est pas partie (Conseil d’État, 23 décembre 2016, Association Études et consommation CFDT du Languedoc- Roussillon et Association ATTAC Montpellier)
+ * les actes administratifs détachables de la formation des contrats de droit privé (Conseil d’État, Section, 26 novembre 1954, Syndicat de la raffinerie du soufre française, p. 620 ; Conseil d’État, 27 octobre 2015, M. A… et autres).
+Enfin, rappelons ceci : Un tiers à un contrat administratif, susceptible d'être lésé dans ses intérêts de façon suffisamment directe et certaine par une décision refusant de faire droit à sa demande de mettre fin à l'exécution du contrat, est recevable à former devant le juge du contrat un recours de pleine juridiction tendant à ce qu'il soit mis fin à l'exécution du contrat - Conseil d’État, Section, 30 juin 2017, Syndicat mixte de promotion de l’activité transmanche.
+* Nota bene : Le changement qui vient d’être exposé dans ce point 4 ne s’applique qu’aux contrats signés à compter du 4 avril 2014, date de la décision Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne.
+L’annulation d'un acte détachable d'un contrat n'implique pas nécessairement la nullité dudit contrat – Conseil d’État, 21 février 2011, Société Ophrys et communauté d'agglomération Clermont-communauté. Mais elle entraîne tout de même d’importantes conséquences que trois décisions ont soulignées :
+      * Conseil d’État, 21 février 2011, Société Véolia propreté et autres ; Conseil d’État, 21 février 2011, Société Ophrys et communauté d'agglomération Clermont-communauté. Il appartient au juge de l'exécution du contrat, après avoir pris en considération la nature de l'illégalité commise, 
+          - soit de décider que la poursuite de l'exécution du contrat est possible, éventuellement sous réserve de mesures de régularisation prises par la personne publique ou convenues entre les parties, 
+          - soit, après avoir vérifié que sa décision ne portera pas une atteinte excessive à l'intérêt général, d'enjoindre à la personne publique de résilier le contrat, le cas échéant avec un effet différé, 
+          - soit, eu égard à une illégalité d'une particulière gravité, d'inviter les parties à résoudre leurs relations contractuelles ou, à défaut d'entente sur cette résolution, à saisir le juge du contrat afin qu'il en règle les modalités s'il estime que la résolution peut être une solution appropriée.
+      * Conseil d’État, 8 juin 2011, Commune de Divonne-les-Bains. Il appartient à la personne publique de déterminer, sous le contrôle du juge, les conséquences à tirer de l’annulation de l'acte détachable de la passation d'un contrat, compte tenu de la nature de l'illégalité affectant cet acte : 
+          - s'il s'agit notamment d'un vice de forme ou de procédure propre à l'acte détachable et affectant les modalités selon lesquelles la personne publique a donné son consentement, celle-ci peut procéder à sa régularisation, indépendamment des conséquences de l'annulation sur le contrat lui-même ; 
+          - elle peut ainsi, eu égard au motif d'annulation de l'acte détachable, adopter un nouvel acte d'approbation avec effet rétroactif, dépourvu du vice ayant entaché l'acte annulé.
+      Le bénéficiaire de l’annulation de l’acte détachable peut demander au juge d’ordonner, sous astreinte, à l’administration contractante de saisir le juge du contrat pour qu’il déclare la nullité du contrat. 
+      Il ne peut en revanche former un recours pour excès de pouvoir contre le refus de la personne publique de saisir le juge du contrat d'une action en nullité (ce refus étant un acte non détachable). Par conséquent, une requête tendant à l'annulation de ce refus est irrecevable – Conseil d’État, 17 décembre 2008, Association pour la protection de l'environnement du Lunellois (APPEL) et autres.
+
+5 – Le cas particulier du recours pour excès de pouvoir contre les clauses réglementaires d’un contrat
+    Rappelons que certains contrats administratifs, tels les contrats de concession sont de nature mixte : ils comportent des clauses de nature réglementaire (unilatérale), en plus des clauses contractuelles habituelles. 
+    On se souvient également que, dans sa décision Conseil d’État, Assemblée, 10 juillet 1996, Cayzeele, le Conseil d’État a estimé que les tiers y ayant intérêt pouvaient demander au juge de l’excès de pouvoir l’annulation de ces clauses réglementaires dans la mesure où elles étaient divisibles des clauses contractuelles.
+    Si, comme on l’a vu, la voie du recours direct contre les actes détachables du contrat a été fermée, exception faite du préfet, à tous les tiers par l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne, il n’en va pas de même s’agissant du recours pour excès de pouvoir contre les clauses réglementaires d’un contrat. À preuve, la réserve par laquelle débute le considérant n° 2 de l’arrêt Conseil d’État, Assemblée, 4 avril 2014, Département de Tarn-et-Garonne :
+« 2. Considérant qu’indépendamment des actions dont disposent les parties à un contrat administratif et des actions ouvertes devant le juge de l’excès de pouvoir contre les clauses réglementaires d’un contrat ou devant le juge du référé contractuel sur le fondement des articles L. 551-13 et suivants du code de justice administrative, tout tiers à un contrat administratif susceptible d’être lésé dans ses intérêts de façon suffisamment directe et certaine par sa passation ou ses clauses est recevable à former devant le juge du contrat un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles ; »
+    Ainsi donc, les tiers à un contrat administratif continuent-ils d’être recevables à former un recours en excès de pouvoir, dès lors qu'ils justifient d'un intérêt leur donnant qualité pour agir, contre les clauses réglementaires de ce contrat (Conseil d’État, Assemblée, 10 juillet 1996, Cayzeele), clauses que le juge affirme qu’elles sont divisibles de l’ensemble du contrat (Conseil d’État, Section, 8 avril 2009, Association Alcaly et autres), « affirmation hardie mais nécessaire pour assurer la recevabilité de tels recours »11.
+
+6 – Le cas particulier du recours pour excès de pouvoir contre le contrat de recrutement d'un agent public
+    Les tiers y ayant intérêt peuvent demander au juge administratif l’annulation du contrat de recrutement d’un agent public non titulaire - Conseil d’État, Section, 30 octobre 1998, Ville de Lisieux. Ces contrats, on le sait, dérogent sur bien des points au droit commun des contrats administratifs.
+
+III – L’exécution des contrats administratifs 
+ Elle révèle toute la distance qui sépare le droit administratif du droit privé, les « contrats de droit administratif » des contrats de droit privé.
+ Que l’on se rappelle les propos précités du commissaire du gouvernement Jacomet : 
+« Lorsqu’elle conclut des contrats administratifs, l’administration ne se dépouille pas de ses attributs de puissance publique » (Conclusions sur Conseil d’État, 5 mars 1954, Mlle Soullier, Rec. p. 139).
+ Dès lors, le scepticisme du commissaire du gouvernement Kahn se comprend mieux :
+« Chacun s’accorde à reconnaître aujourd’hui que la distinction du contractuel et de l’unilatéral pose plus de questions qu’elle ne permet d’en résoudre. » Conclusions sur Tribunal des conflits, 3 mars 1969, Société interprofessionnelle du lait et de ses dérivés (INTERLAIT).
+ Un contrat administratif met en présence non pas des volontés inégales, mais des intérêts inégaux : l’intérêt général et l’intérêt particulier. On reconnaît à l’administration les moyens de faire triompher l’intérêt général. Mais l’intérêt particulier n’est pas pour autant ignoré.
+ Au royaume du droit administratif, contracter c’est souvent servir, et servir c’est parfois contracter.
+
+     A – Les droits et obligations des parties 
+ Dans l’exécution des contrats administratifs, la jurisprudence ne retient pas en tant que principe général, au profit du cocontractant privé, l'exception non adimpleti contractus, c'est-à-dire l’exception d’engagement contractuel non exécuté. En d’autres termes, si l’administration ne s’acquitte pas de ses obligations, son cocontractant ne peut, en principe, refuser d’exécuter les siennes en invoquant la carence de l’autre partie, en l’occurrence de l’administration. Sauf exception12. 
+ En principe, la date d’effet des droits et obligations est postérieure à la signature du contrat administratif. Toutefois, les parties ont le droit de donner une portée rétroactive au contrat.
+* Illustration : Conseil d’État, Section, 19 novembre 1999, Fédération syndicaliste Force Ouvrière des travailleurs des Postes et Télécommunications : 
+ « Considérant […] qu’aucune disposition législative ou réglementaire, non plus qu'aucun principe général du droit, ne fait obstacle à ce que des stipulations d'un contrat produisent des effets rétroactifs entre les parties, à condition que ces effets ne s'étendent pas à des personnes qui ne seraient pas parties au contrat ; […] »13
+
+1 – La problématique des mesures d’exécution du contrat
+
+ Question : Que faut-il entendre par « mesures d’exécution du contrat » ? 
+ Réponse : Par « mesures d’exécution du contrat », on entend l’une quelconque des trois catégories de mesures que l’administration contractante peut prendre :
+* les mesures d’application du contrat, 
+* les mesures de modification du contrat 
+* et les mesures de résiliation du contrat.
+ Question : Le juge peut-il annuler une mesure d’exécution du contrat lorsqu’elle est illégale ? 
+ Réponse : NON. Toutefois, deux précisions s’imposent.
+Lorsqu’une mesure d’application ou de modification du contrat est illégale, le juge n’a pas le pouvoir d’en prononcer l’annulation. Il lui appartient seulement de rechercher si cette mesure est intervenue dans des conditions de nature à ouvrir au profit du cocontractant de l’administration un droit à indemnité. 
+En revanche, lorsqu’une mesure de résiliation du contrat est illégale, le juge, saisi d’une demande en ce sens, se reconnaît le pouvoir de prononcer, quel que soit l’objet du contrat, la reprise des relations contractuelles. Une décision qui, dans certains cas, peut produire des effets comparables à une annulation de la résiliation illégale – Conseil d’État, Section, 21 mars 2011, Commune de Béziers (Arrêt dit Béziers II).
+
+2 – Les droits et obligations de l’administration contractante
+ Question : Qu'est-ce qui justifie les prérogatives exorbitantes reconnues à l'administration dans l'exécution des contrats administratifs ?  
+ Réponse : Le service public et, partant, l'intérêt général justifient les prérogatives exorbitantes reconnues à l'administration dans l'exécution des contrats administratifs. 
+En effet, un contrat administratif est nécessairement conclu dans l'intérêt général. 
+Il est donc logique que l'administration se voit conférer les moyens juridiques qui lui permettent d'assurer une certaine adéquation entre les prestations de son cocontractant et l'intérêt général. 
+Deux lois du service public sont au cœur de la mise en œuvre de ces prérogatives : les principes de continuité et de mutabilité du service de l’intérêt général et du service public.
+
+a – Les pouvoirs de contrôle et de direction
+Une fois le contrat conclu, l’administration ne se désintéresse pas du comportement de son cocontractant. Sa vigilance est justifiée par le souci de l’intérêt général.
+L’article L6 du code de la commande publique dispose :
+« L'autorité contractante exerce un pouvoir de contrôle sur l'exécution du contrat, selon les modalités fixées par le présent code, des dispositions particulières ou le contrat. »
+ Par son pouvoir de contrôle, l’administration s’assure que le cocontractant s’acquitte convenablement de ses obligations. 
+L’exercice de ce pouvoir de contrôle est une obligation dont la méconnaissance peut engager la responsabilité de l’administration14. 
+En principe, le cocontractant exécute ses obligations conformément aux clauses du contrat. 
+ Mais, par son pouvoir de direction, l’administration peut exiger de lui le respect de modalités d’exécution non prévues au contrat. 
+L’administration exerce ses pouvoirs de contrôle et de direction en prenant des actes administratifs unilatéraux dénommés ordres de service et auxquels le cocontractant est tenu de déférer.  
+
+b – Le pouvoir de modification unilatérale
+C’est l’une des prérogatives qui tranchent le plus sur le droit commun des contrats.
+Elle rappelle le pouvoir de direction, mais elle ne saurait être confondue avec lui. 
+Le pouvoir de modification unilatérale ne concerne pas la manière dont le cocontractant exécute ses prestations. Il a trait au contenu même des prestations. 
+* Définition : pouvoir reconnu à l’administration de modifier, en cours d’exécution, l’étendue des prestations à effectuer par le cocontractant. 
+L’exercice du pouvoir de modification unilatérale a pour effet soit une augmentation, soit une diminution de ces prestations.
+Moyens utilisés : des actes administratifs unilatéraux individuels dénommés ordres de service.
+
+   Quel est le fondement du pouvoir de modification unilatérale ? 
+      Réponse : Conseil d’État, 6 mai 1985, Ricard : « Considérant que si les règles générales applicables aux contrats administratifs permettent à l'administration, seule compétente pour régler l'organisation du service public, de modifier unilatéralement de tels contrats […] »
+     Le pouvoir de modification unilatérale se fonde sur le caractère évolutif de l’intérêt général et, parfois, plus spécifiquement sur les principes de mutabilité et de continuité du service public.
+     Explication. Bien souvent, le contrat est conclu en vue de pourvoir, directement ou indirectement, aux besoins du service public. Et ces besoins sont évolutifs comme le service public lui-même et l’intérêt général. Il est donc opportun de ne pas figer les prestations du cocontractant sous peine d’entraver, à court terme, la mutation du service public et, à long terme, sa continuité. 
+      Le commissaire du Gouvernement Léon Blum observait : 
+« Il est évident que les besoins auxquels un service public de cette nature doit satisfaire et, par suite, les nécessités de son exploitation, n’ont pas un caractère invariable... L’État ne peut pas se désintéresser du service public du transport une fois concédé... [Il] interviendra donc nécessairement pour imposer, le cas échéant, au concessionnaire, une prestation supérieure à celle qui était prévue strictement..., en usant non plus des pouvoirs que lui confère la convention, mais du pouvoir qui lui appartient en tant que puissance publique ». (Conclusions sur Conseil d’État, 21 mars 1910, Compagnie générale française des tramways) 
+   
+   Quatre observations en ce qui concerne le pouvoir de modification unilatérale :
+
+1. Le pouvoir de modification unilatérale est un pouvoir détenu de plein droit par l’administration. Autrement dit, l’administration détient ce pouvoir, que cela soit ou non stipulé dans le contrat. Le pouvoir de modification unilatérale s’applique à tous les contrats administratifs. Il a été reconnu 
+* d’abord, implicitement, par la décision Conseil d’État, 10 janvier 1902, Compagnie nouvelle du gaz de Déville-lès-Rouen ; 
+* puis, plus nettement, par l’arrêt Conseil d’État, 21 mars 1910, Compagnie générale française des tramways ; 
+* avant que le Conseil d’État ne le consacre enfin comme l’une des « règles générales applicables aux contrats administratifs », mettant ainsi un terme à certains doutes que l’existence de ce pouvoir avait suscités dans une partie de la doctrine - Conseil d’État, 2 février 1983, Union des transports publics urbains et régionaux.
+Code de la commande publique, article L6 : « L'autorité contractante peut modifier unilatéralement le contrat […] sans en bouleverser l'équilibre. » ;
+2. Comme contrepartie de la modification unilatérale et de l’aggravation de ses charges, le cocontractant a droit à une indemnisation intégrale assurée par l’administration contractante – Conseil d’État, Section, 27 octobre 1978, Ville de Saint-Malo. 
+Code la commande publique, article L6 : « L'autorité contractante peut modifier unilatéralement le contrat […] sans en bouleverser l'équilibre Le cocontractant a droit à une indemnisation, sous réserve des stipulations du contrat » ;
+Code la commande publique, article L2194-2 : « Lorsque l'acheteur apporte unilatéralement une modification à un contrat administratif soumis au présent livre, le cocontractant a droit au maintien de l'équilibre financier du contrat. »
+3. L’exercice du pouvoir de modification unilatérale est exclu à l’égard de certaines clauses du contrat : par exemple, les clauses relatives au prix versé au cocontractant.
+     Toutefois, cette exclusion n’interdit pas la rectification unilatérale d’une erreur purement matérielle portant sur le prix. À preuve, Conseil d’État, 26 novembre 1975, SA Entreprise PY : 
+« Considérant que, si le caractère définitif des prix stipulés au marché s'oppose en principe à toute modification unilatérale ultérieure, ce principe ne saurait recevoir application dans le cas exceptionnel ou, comme en l'espèce, il s'agit d'une erreur purement matérielle et d'une nature telle qu'il est impossible à la partie de s'en prévaloir de bonne foi ; […] ».
+4. Les modifications ne doivent pas dépasser certaines limites. Des prestations totalement nouvelles, qui changent l’objet du contrat, donnent naissance, de fait, à un nouveau contrat ; le cocontractant pourrait refuser de les exécuter et demander la résiliation du contrat. 
+     Qui plus est, les modifications prescrites ne doivent être ni imprécises ni impossibles à exécuter - Conseil d’État, 5 avril 2002, Société des mines de SACILOR LORMINES.
+     Limites fixées par l’article L2194-1 du code de la commande publique : 
+     « 5° Les modifications ne sont pas substantielles ;
+     6° Les modifications sont de faible montant. 
+     Qu'elles soient apportées par voie conventionnelle ou, lorsqu'il s'agit d'un contrat administratif, par l'acheteur unilatéralement, de telles modifications ne peuvent changer la nature globale du marché. »
+
+Exemple de modification unilatérale :
+Une commune (représentée par son maire) signe un contrat de délégation de service public avec une société privée. 
+En vertu de ce contrat, la société délégataire a la charge d'organiser les transports publics en percevant des redevances sur les usagers.
+Le même contrat prévoit la mise en service, par le cocontractant, de 40 autobus. 
+Ultérieurement, le maire exige que la société délégataire augmente le nombre des véhicules mis en service, en le portant de 40 à 70.
+c – Le pouvoir de sanction
+i – Les principes
+Le pouvoir de sanction vise à réprimer les défaillances contractuelles.
+ Question : Qu’est-ce qui fonde ou justifie l’existence de ce pouvoir ?  
+ Réponse : Le pouvoir de sanction se fonde sur la nécessité d’assurer, directement ou indirectement, malgré lesdites défaillances, la continuité du service de l’intérêt général et, parfois, plus spécifiquement, la continuité du service public ou le bon fonctionnement de celui-ci.
+  
+Trois remarques au sujet du pouvoir de sanction :
+
+1. C’est un pouvoir détenu de plein droit par l’administration. L’administration détient ce pouvoir, que cela soit ou non stipulé dans le contrat – Conseil d’État, 31 mai 1907, Deplanque c. Ville de Nouzon, Rec. p. 513 ; 
+2. L’administration ne peut infliger de sanctions à son cocontractant sans l’avoir mis en demeure d’exécuter ses obligations, sauf urgence ou clause contraire - respect des droits de la défense oblige. 
+3. Le juge contrôle la légalité des sanctions. Mais, en principe, le juge ne peut pas annuler les sanctions prises par l’administration. S’il les trouve injustifiées, il peut seulement condamner l’administration à verser une indemnité. 
+ Par exception, lorsqu’il s’agit d’une mesure de résiliation illégale, le juge, saisi d’une demande en ce sens, se reconnaît le pouvoir de prononcer, quel que soit l’objet du contrat, la reprise des relations contractuelles, une décision qui, dans certains cas, peut produire des effets comparables à une annulation de la résiliation illégale – Conseil d’État, Section, 21 mars 2011, Commune de Béziers, « Arrêt dit Béziers II ». 
+
+ii – Les sanctions
+   Quelles sanctions l’administration peut-elle prononcer ?      
+      L’administration peut prononcer : une résiliation pour faute (1), des sanctions coercitives (2) ou des sanctions pécuniaires (3).
+1. La résiliation pour faute
+Nota bene : le mot de résiliation est pris ici dans son sens ordinaire, à savoir la disparition décidée uniquement pour l’avenir. En effet, l’administration n’a pas le pouvoir de prononcer la résolution du contrat, c’est-à-dire sa disparition rétroactive. Seul le juge du contrat dispose d’un tel pouvoir. 
+ L’article L2195-3 du code de la commande publique dispose :
+« Lorsque le marché est un contrat administratif, l'acheteur peut le résilier : 
+1° En cas de faute d'une gravité suffisante du cocontractant […] »
+       1.1 La résiliation pour faute (encore appelée résiliation-sanction), ne doit pas être confondue  
+        1.1.1 avec la résiliation pour un motif d’intérêt général, celle-ci ne présentant pas le caractère d’une sanction et pouvant donc intervenir en l’absence de toute faute commise par le cocontractant,
+        1.1.2  ni avec la résiliation de plein droit, que justifient deux situations : 
+         1.1.2.1  la force majeure, qui met le titulaire du marché dans l'impossibilité absolue de poursuivre l'exécution du marché pour des raisons indépendantes de sa volonté et d'obstacles qui ne peuvent être surmontés (Conseil d’État, 7 août 1926, Bouxin, Rec. p. 891), et
+         1.1.2.2  la disparition du cocontractant (décès, faillite ou incapacité civile).
+       1.2 Au contraire de la résiliation pour motif d’intérêt général et de la résiliation de plein droit, la résiliation pour faute vise à réprimer un manquement, une faute grave du cocontractant. Comme toute résiliation, elle met fin au contrat d’une manière non rétroactive ; il ne s’agit donc pas d’une résolution du contrat. 
+        1.2.1 Selon un principe traditionnel auquel des stipulations contractuelles peuvent déroger dans une certaine mesure15, dans le cadre d’une concession, l’administration ne peut, en principe, prononcer une résiliation-sanction ; seul, en principe toujours, le juge a le pouvoir de prononcer une telle sanction dénommée déchéance du concessionnaire (à condition que le cocontractant ait commis « une faute d’une particulière gravité » – Conseil d’État, 12 mars 1999, SA MERIBEL 92. 
+        1.2.2 La résiliation pour faute peut prendre deux formes : la résiliation simple et la résiliation aux frais et risques.
+         1.2.2.1 La résiliation simple. Dans cette hypothèse, l’administration accepte de supporter les conséquences de la résiliation qu’elle a décidée pour faute de son cocontractant. Elle devra donc éventuellement passer un nouveau marché avec un autre partenaire, en respectant, le cas échéant, les dispositions légales et réglementaires en vigueur. Le cocontractant originel est dégagé de ses obligations contractuelles, mais ne pourra pas percevoir d’indemnisation16.
+         1.2.2.2 La résiliation aux frais et risques. Dans ce cas de figure, l’administration, après avoir résilié le contrat initial, passe un nouveau contrat dénommé contrat de substitution. L’ancien cocontractant (le cocontractant défaillant) supportera le surcoût engendré par la passation du contrat de substitution pour achever les prestations faisant l’objet du contrat17.
+* Signalons rapidement, pour y revenir plus tard à l’occasion de l’étude des droits et obligations du cocontractant de l’administration, un principe qui, énoncé par le Conseil d’État, peut faire pendant au pouvoir de résiliation de la personne publique :
+Il est loisible aux parties de prévoir, dans un contrat qui n’a pas pour objet l’exécution même du service public, les conditions auxquelles le cocontractant de la personne publique peut résilier le contrat en cas de méconnaissance par cette dernière de ses obligations contractuelles - Conseil d’État, 8 octobre 2014, Société Grenke location.
+
+ 2. Les sanctions coercitives  
+     Elles permettent à l’administration d’évincer son cocontractant sans résilier ipso facto le contrat. 
+     Elles consistent à exécuter tout ou partie du contrat avec ou sans le matériel et le personnel du cocontractant, à ses frais et risques. Elles ne mettent pas un terme aux relations contractuelles ; le contrat n'est même pas suspendu. L'entreprise reste titulaire du contrat.
+* Exemple : Par incapacité ou mauvais vouloir, le cocontractant C s’abstient durablement d’exécuter ses obligations contractuelles. Continuité du service public oblige, l’administration va lui substituer un tiers T. Cette substitution ne met pas fin au contrat liant l’administration à C. Mais l'exécution du contrat sera assurée par T aux frais et risques de C. 
+Le nom de la procédure de substitution est variable : 
+* concession : mise sous séquestre ; 
+* marché de travaux publics : mise en régie, éventuellement suivie d’une réadjudication à la folle enchère ; 
+* marché de fournitures : exécution par défaut.
+3. Les sanctions pécuniaires  
+     Il s’agit en fait de pénalités. Celles-ci sont des sommes forfaitaires (c’est-à-dire dont le montant est fixé et connu à l’avance) dues par l’une des parties en cas d’inexécution d’une obligation contractuelle.
+     * Les pénalités revêtent
+      * un caractère contractuel : dans le silence du contrat, aucune pénalité n’est applicable ; en pratique, les pénalités sont souvent stipulées au profit de l’administration,
+      * un caractère facultatif : même si le contrat a prévu des pénalités, l’administration peut renoncer à les infliger à son cocontractant,
+      * un caractère objectif : l’administration prononce des pénalités sans avoir à démontrer qu’elle a subi un préjudice18.
+      Toutefois, le juge exerce un contrôle sur les pénalités décidées par l’administration : 
+« […] il est loisible au juge administratif, saisi de conclusions en ce sens, de modérer ou d’augmenter les pénalités de retard résultant du contrat, par application des principes dont s’inspire l’article 1152 du code civil, si ces pénalités atteignent un montant manifestement excessif ou dérisoire eu égard au montant du marché » - Conseil d’État, 29 décembre 2008, Office public d'habitations à loyer modéré (OPHLM) de Puteaux.
+ Pour déterminer s'il y a lieu de modérer les pénalités résultant d'un marché public si elles atteignent un montant manifestement excessif, le juge du contrat, saisi de conclusions en ce sens par une partie, apprécie la gravité de l'inexécution constatée de la part du cocontractant au regard des fautes commises par l'acheteur public — Conseil d’État, 15 juillet 2025, Société Nouvelle Laiterie de la Montagne.
+      Nota bene : En cas d’urgence et d’impuissance de l’administration, le juge des référés peut ordonner, éventuellement sous menace de sanctions pécuniaires, au cocontractant, dans le cadre des obligations prévues au contrat, toute mesure nécessaire pour assurer la continuité du service public (Cf. Conseil d’État, 29 juillet 2002, Centre hospitalier d'Armentières ; supra, Cours sur le Service public).
+*
+d – Le pouvoir de résilier le contrat pour motif d’intérêt général
+Nota bene : le mot de résiliation est pris ici dans son sens strict, à savoir la disparition décidée uniquement pour l’avenir. En effet, l’administration n’a pas le pouvoir de prononcer la résolution du contrat, c’est-à-dire sa disparition rétroactive. Seul le juge du contrat dispose d’un tel pouvoir.  
+
+   L’article L2195-3 du code de la commande publique dispose :
+« Lorsque le marché est un contrat administratif, l'acheteur peut le résilier : 
+2° Pour un motif d'intérêt général […] »
+    Le pouvoir de résilier le contrat pour motif d’intérêt général est également connu sous une autre dénomination : « le pouvoir de résilier le contrat dans l’intérêt du service ». Quoique très usitée en doctrine, cette seconde formulation paraît trop étroite et donc moins adéquate. 
+   Le pouvoir de résilier le contrat pour motif d’intérêt général ne doit pas être confondu avec le pouvoir de résiliation-sanction. 
+   Confusion facilitée par le fait que, comme les pouvoirs de modification unilatérale et de sanction, c’est un pouvoir que l’administration détient de plein droit - Conseil d’État, 17 mars 1864, Paul Dupont, Dalloz périodique, 1864, 3, 8620. 
+    Autrement dit, que cela soit ou non stipulé au contrat, l’administration contractante a le droit de résilier pour un motif d’intérêt général le contrat qu’elle a conclu - Conseil d’État, Assemblée, 2 mai 1958, Distillerie de Magnac-Laval, Rec. p. 246.
+    Toute clause qui prive la personne publique de ce droit de résilier le contrat est réputée nulle et, par conséquent, inopposable - Conseil d’État, 6 mai 1985, Association Eurolat contre Crédit foncier de France.
+   L’exercice du pouvoir de résilier le contrat pour motif d’intérêt général, comme celui du pouvoir de modification unilatérale, est souvent justifié par le principe de mutabilité du service public21. Le contrat ayant été conclu dans l’intérêt du service, il arrivera fatalement un moment où il ne cadrera plus avec cet intérêt, qui est évolutif. Il sera alors légitime d’y mettre un terme. Le cocontractant recevra une indemnisation adéquate pour le préjudice subi - Conseil d’État, Assemblée, 2 mai 1958, Distillerie de Magnac-Laval, décision précitée.
+   L’exercice de ce pouvoir n’équivaut donc pas à une sanction ; il peut intervenir à l’occasion de l’exécution de tous les contrats administratifs (contrairement à la résiliation-sanction - Cf. supra). Au demeurant, il a été 
+       * jugé par le Conseil constitutionnel conforme aux principes applicables aux contrats administratifs - Décision n°  84-185 DC du 18 janvier 1985, et
+       * reconnu par le droit européen : il appartient « à tout État un pouvoir souverain de modifier, voire de résilier un contrat conclu avec des particuliers » - CEDH, 9 décembre 1994, Raffineries grecques Stran et Stratis Andreadis contre Grèce.
+   * Les facteurs justifiant la résiliation pour motif d’intérêt général peuvent être, par exemple :
+       * l’abandon d’un projet, notamment en raison des difficultés techniques rencontrées en cours d’exécution, 
+       * le fait que le cocontractant ne dispose plus de garanties suffisantes pour remplir ses obligations,
+       * « l’imprécision » des clauses du contrat ou « des irrégularités de rédaction ».  
+   La contrepartie de l’exercice, même légal, du pouvoir de résilier le contrat pour motif d’intérêt général réside dans le droit à indemnité du cocontractant22.
+   L’article L6 du code de la commande publique dispose :
+« Lorsque la résiliation intervient pour un motif d'intérêt général, le cocontractant a droit à une indemnisation, sous réserve des stipulations du contrat. »
+     Cette indemnisation doit couvrir l’intégralité du dommage subi par le cocontractant, à condition qu’il puisse en justifier le montant, et que cela n’aboutisse pas à un enrichissement indu ou, plus spécifiquement, sans cause. Sont pris en compte le manque à gagner du cocontractant imputable à la résiliation ainsi que les dépenses qu’il a engagées (exigence cependant du caractère certain des pertes subies).  
+     Toutefois, les clauses du contrat peuvent écarter le principe même de l’indemnisation23 ou prévoir une indemnisation transactionnelle moindre que le montant du dommage, voire une indemnisation supérieure à condition qu’elle ne soit pas manifestement disproportionnée et n’ait pas pour effet de dissuader l’administration d’exercer son droit de résiliation pour motif d’intérêt général. 
+     En cas d’exercice illégal du pouvoir de résilier le contrat pour un motif d’intérêt général (par exemple, si la réalité du motif d’intérêt général invoquée n’est pas établie), le juge peut 
+      * tenir pour illégale la décision (fondée sur un tel motif) de résilier le contrat - Conseil d’État, Assemblée, 2 février 1987, Société T.V.6 - et
+      * condamner l’administration à verser à son cocontractant une indemnité destinée non seulement à compenser le manque à gagner et à rembourser les dépenses engagées, mais aussi à réparer l’atteinte à la réputation découlant de la résiliation illégale.
+
+e – Les obligations de l’administration contractante
+La plupart des obligations de l’administration contractante font pendant aux droits de son cocontractant - Cf. infra, les droits du cocontractant. 
+Les autres ne se distinguent guère des devoirs généraux de l’administration :
+* obligation de respecter les stipulations contractuelles aussi longtemps qu’elles n’auront pas été régulièrement modifiées (unilatéralement ou par accord),
+* obligation d’user des prérogatives uniquement en vue de l’intérêt général,
+* obligation d’agir dans le respect des formes et procédures prescrites.
+
+2 – Les droits et obligations du cocontractant de l'administration  
+a – Les droits
+      Le cocontractant a droit aux prestations stipulées au contrat ou impliquées par celui-ci : 
+* droit au matériel promis par l'administration ;
+* droit au règlement du prix qui constitue sa rémunération. En principe, le prix est définitif, mais les parties peuvent inclure dans le contrat une clause de variation ou de révision du prix. La première est automatique, au contraire de la seconde ;
+* droit, sous certaines conditions, de résilier unilatéralement le contrat (Conseil d’État, 8 octobre 2014, Société Grenke location ;  
+* droit à certaines indemnités, même dans le silence du contrat : 
+- indemnité pour responsabilité de l'administration contractante, 
+- indemnité en application des théories de l'équation financière, du fait du prince, de l'imprévision et des sujétions imprévues - Cf. infra B - L'influence des faits nouveaux.
+- indemnité pour prestations supplémentaires indispensables effectuées spontanément.
+
+b – Les obligations
+ Sauf cas de force majeure, le cocontractant est tenu d'exécuter ses obligations contractuelles. Cette exécution doit être :  
+- personnelle : la sous-traitance est subordonnée à l'agrément explicite ou tacite de l'administration contractante,
+- intégrale,  
+- effectuée dans les délais convenus.
+ Principe :
+Le cocontractant ne peut se prévaloir des manquements ou défaillances de l’administration pour se soustraire à ses propres obligations contractuelles.
+ Autrement dit, l’exception d’inexécution (c'est-à-dire l'exceptio non adimpleti contractus), ne peut être invoquée par le cocontractant pour ne pas exécuter ses propres obligations24.
+ Exception :
+« Il est loisible aux parties de prévoir dans un contrat qui n’a pas pour objet l’exécution même du service public les conditions auxquelles le cocontractant de la personne publique peut résilier le contrat en cas de méconnaissance par cette dernière de ses obligations contractuelles […] » – Conseil d’État, 8 octobre 2014, Société Grenke location.  
+
+
+      B – L’influence des faits nouveaux
+ Question : Que faut-il entendre par « faits nouveaux » ? 
+ Réponse : On entend par « faits nouveaux » des événements ou des faits
+- qui n’existaient pas à la date de la conclusion du contrat 
+- et qui donc surviennent au cours de l’exécution du contrat. 
+Ils ont, en principe, pour effet d’aggraver les charges du cocontractant.
+
+1 – L’équation financière et le fait du prince  
+ Dans le cas de l’équation financière comme dans celui du fait du prince, l’événement qui aggrave les charges du cocontractant est imputable à la personne publique contractante.
+a – L’équation financière
+Définition de la théorie de l’équation financière :
+Théorie permettant l’indemnisation du cocontractant lorsque l'administration contractante, agissant en tant que partie au contrat, modifie unilatéralement et directement les modalités d'exécution du contrat ou les prestations du cocontractant.
+* Exemple d’équation financière :
+Une commune (représentée par son maire) signe un contrat de délégation de service public avec une société privée. 
+En vertu de ce contrat, la société délégataire a la charge d'organiser les transports publics en percevant des redevances sur les usagers. 
+Ultérieurement, le maire exige que la société délégataire augmente le nombre des véhicules mis en service. 
+Il s'agit d'un cas d'équation financière et non du fait du prince parce que le maire visait directement le contrat ; il a agi comme partie contractante. 
+Si, par extraordinaire, cette mesure, qui visait directement le contrat, était le fait de l'État (partie non contractante), on écarterait la théorie de l'équation financière au profit de l'imprévision.
+  
+b – Le fait du prince
+Définition de la théorie du fait du prince :
+Théorie permettant l’indemnisation du cocontractant lorsque l'administration contractante, bien qu’elle n’agisse pas en tant que partie au contrat, modifie unilatéralement et indirectement les modalités d'exécution du contrat ou les prestations du cocontractant.
+Exemple de fait du prince :
+Une commune (représentée par son maire) signe un contrat de délégation de service public avec une société privée. 
+En vertu de ce contrat, la société délégataire a la charge d'organiser les transports publics en percevant des redevances sur les usagers. 
+Ultérieurement, le maire institue pléthore de voies à sens uniques s'imposant à tous les véhicules. 
+Les charges du délégataire seront aggravées. 
+Il s'agit du fait du prince, et non d'un cas d'équation financière, parce que le maire ne visait pas directement le contrat ; il a agi comme autorité de police administrative.
+  
+2 – L'imprévision : la théorie et ses limites 
+ Dans le cas de l’imprévision comme dans celui de la force majeure, l’événement qui aggrave les charges du cocontractant n’est pas imputable à la personne publique contractante.
+a – La théorie de l’imprévision
+ Les principes de l’imprévision ont été dégagés par deux décisions complémentaires : 
+* Conseil d’État, 30 mars 1916, Compagnie générale d'éclairage de Bordeaux– on dit plus couramment « arrêt Gaz de Bordeaux » ; 
+* Conseil d’État, 9 décembre 1932, Compagnie des tramways de Cherbourg. 
+
+Définition de la théorie de l’imprévision :
+Théorie permettant d’obliger l'administration contractante à aider financièrement son cocontractant lorsqu'un événement imprévisible, (donc anormal) et indépendant de la volonté des parties bouleverse l'économie du contrat.
+
+ Selon une jurisprudence constante25, les conditions d’application de l’imprévision sont au nombre de trois :
+1. Un événement imprévisible (et donc anormal) à la date de la signature du contrat. Tout contrat à long terme comporte des aléas. Mais il existe deux sortes d'aléas : les aléas ordinaires, que le cocontractant a accepté d'assumer26, et les aléas extraordinaires. Ceux-ci sont des « événements déjouant tous les calculs que les parties ont pu faire lors de la conclusion du contrat ». Un événement imprévisible constitue un aléa extraordinaire. 
+Exemples : Événement économique : la hausse du prix du pétrole (ou du charbon) ; événement naturel : séisme d’une violence exceptionnelle ; événement juridique : mesure prise par une autre personne publique. Il convient de s’assurer, au cas par cas, que ces événements sont réellement imprévisibles ;
+2. Un événement étranger à la volonté des parties. S’il ne présente pas ce caractère, il s’agit du fait du prince, de l’équation financière ou d’une faute du cocontractant ;
+3. Un événement qui bouleverse l’économie du contrat. L'événement engendre des charges extracontractuelles, une situation extracontractuelle. Il s'agit d'un déficit important et non d'une simple diminution du profit.
+
+ Si le fait nouveau présente ces trois caractéristiques, le juge en tire certaines conséquences :
+1. En dépit de ses nouvelles charges, le cocontractant doit exécuter intégralement ses obligations – continuité du service de l’intérêt général et du service public oblige.
+2. Il a droit à une compensation financière appelée indemnité d'imprévision, et versée par la personne publique contractante. Faute d'accord entre les parties, c'est le juge qui en fixe le montant. 
+
+b – Les limites de la théorie de l’imprévision
+ L’application de la théorie de l’imprévision connaît deux limites :
+L'indemnité versée au cocontractant ne couvre pas la totalité des charges extracontractuelles – 90 à 95%. Elle n’a ni pour objet ni pour effet d’enrichir le cocontractant, qui doit supporter la part imputable aux aléas ordinaires.  
+En fait, l’indemnité est établie « en fonction des circonstances de l’affaire et, en particulier, des diligences du cocontractant pour surmonter ses difficultés » – Catherine Bergeal, conclusions sur Conseil d’État, 14 juin 2000, Commune de Staffelfelden.
+La théorie de l'imprévision s'applique à des situations temporaires. 
+Si le déficit devient permanent et définitif, les difficultés sont assimilées à la force majeure. 
+Chacune des parties peut alors demander au juge la résiliation du contrat : Conseil d’État, 9 décembre 1932, Compagnie des tramways de Cherbourg.
+
+Remarque terminale :
+ La théorie de l’imprévision a été mise au point en 1916 par le Conseil d’État, qui depuis l’applique avec constance aux contrats administratifs. 
+ Pendant un siècle, la Cour de cassation a refusé de suivre et de l’appliquer aux contrats de droit privé : Cass. civ. 6 mars 1876, Syndicat des arrosants de Pélissanne c. de Galliffet et autres -– Affaire dite du canal de Craponne.
+ Toutefois, en 2016, les pouvoirs publics ont intégré la théorie de l’imprévision dans le Code civil : 
+ L’ordonnance du 10 février 2016 portant réforme du droit des contrats, du régime général et de la preuve des obligations a introduit dans le Code civil un article 1195 qui dispose :
+« Si un changement de circonstances imprévisible lors de la conclusion du contrat rend l'exécution excessivement onéreuse pour une partie qui n'avait pas accepté d'en assumer le risque, celle-ci peut demander une renégociation du contrat à son cocontractant. Elle continue à exécuter ses obligations durant la renégociation.
+En cas de refus ou d'échec de la renégociation, les parties peuvent convenir de la résolution du contrat, à la date et aux conditions qu'elles déterminent, ou demander d'un commun accord au juge de procéder à son adaptation. À défaut d'accord dans un délai raisonnable, le juge peut, à la demande d'une partie, réviser le contrat ou y mettre fin, à la date et aux conditions qu'il fixe. »
+
+3 – La force majeure  
+Conseil d’État, 29 janvier 1909, Compagnie des messageries maritimes et Compagnie générale transatlantique [grève générale reconnue comme cas de force majeure].
+ La force majeure est un événement de nature à libérer totalement le cocontractant de ses obligations contractuelles.  
+On en sait les caractères en droit public :  
+- indépendant de la volonté des parties (extériorité27),  
+- ne pouvant être prévu ni empêché par les parties (imprévisibilité dans sa survenance)  
+- et rendant absolument impossible l'exécution du contrat (irrésistibilité dans ses effets ; il ne s’agit pas d’une simple difficulté d’exécution). 
+ Rappelons que le déficit permanent et définitif consécutif à une situation d’imprévision est assimilé à un cas de force majeure.
+ La force majeure permet au cocontractant de demander au juge la résiliation du contrat. Les effets de la force majeure sont limités à la durée de l’événement.
 
 `;
 
