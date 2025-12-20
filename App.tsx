@@ -69,14 +69,14 @@ const App = () => {
             <div className={`w-10 h-10 ${activeTheme.bg} rounded-lg flex items-center justify-center text-white shrink-0 shadow-lg`}>
                 <GraduationCap size={24} />
             </div>
-            <span className="font-montserrat font-bold text-xl text-white hidden md:block tracking-wide">Droit Public IA</span>
+            <span className="font-montserrat font-bold text-xl text-white hidden md:block tracking-wide">Droit Public</span>
         </div>
         <nav className="flex-1 p-4 space-y-2">
             <button onClick={() => setActiveMode(AppMode.TEXT)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.TEXT ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
                 <MessageSquare size={20} /><span className="hidden md:block font-medium">Discussion</span>
             </button>
             <button onClick={() => setActiveMode(AppMode.VOICE)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.VOICE ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
-                <Mic size={20} /><span className="hidden md:block font-medium">Mode Oral</span>
+                <Mic size={20} /><span className="hidden md:block font-medium">Mode vocal</span>
             </button>
             <button onClick={() => setActiveMode(AppMode.SETTINGS)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.SETTINGS ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
                 {isAuthenticated ? <Unlock size={20} /> : <Lock size={20} />}<span className="hidden md:block font-medium">Configuration</span>
@@ -84,16 +84,21 @@ const App = () => {
         </nav>
         <div className="p-4 border-t border-slate-800">
             <button onClick={() => setIsDarkMode(!isDarkMode)} className="w-full flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white transition-colors">
-                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Clair' : 'Sombre'}</span>
+                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
             </button>
         </div>
+        <div className="bg-slate-800/50 rounded-lg p-3 text-xs text-slate-500 hidden md:block">
+                <p>Version 1.0.0</p>
+                <p>Propulsé par Gemini 2.5</p>
+                <p>Designed by A. Coulibaly</p>
+        </div>
       </aside>
-
+      {/* Main Area */}
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10">
             <h1 className="text-2xl font-montserrat font-bold text-slate-800 dark:text-white">
-                {activeMode === AppMode.TEXT && 'Assistant de Révision'}
-                {activeMode === AppMode.VOICE && 'Salle de Classe Virtuelle'}
+                {activeMode === AppMode.TEXT && 'Lex publica IA by A. Coulibaly'}
+                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
                 {activeMode === AppMode.SETTINGS && 'Administration'}
             </h1>
             <div className="flex items-center gap-2">
@@ -138,3 +143,4 @@ const App = () => {
 };
 
 export default App;
+
