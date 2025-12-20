@@ -5,7 +5,7 @@ import { TextChat } from './components/TextChat';
 import { VoiceChat } from './components/VoiceChat';
 import { CourseEditor } from './components/CourseEditor';
 import { AppMode } from './types';
-import { DEFAULT_COURSE_CONTENT, DEFAULT_VOICE_SUMMARY, SYSTEM_INSTRUCTION, DEFAULT_THEME_COLOR } from './constants';
+import { DEFAULT_COURSE_CONTENT, DEFAULT_VOICE_SUMMARY, SYSTEM_INSTRUCTION, VOICE_SYSTEM_INSTRUCTION, DEFAULT_THEME_COLOR } from './constants';
 
 const themeStyles: Record<string, { bg: string, text: string }> = {
   blue: { bg: 'bg-blue-600', text: 'text-blue-600' },
@@ -20,6 +20,7 @@ const App = () => {
   const [courseContent, setCourseContent] = useState<string>(DEFAULT_COURSE_CONTENT);
   const [voiceSummary, setVoiceSummary] = useState<string>(DEFAULT_VOICE_SUMMARY);
   const [systemInstruction, setSystemInstruction] = useState<string>(SYSTEM_INSTRUCTION);
+  const [voiceInstruction, setVoiceInstruction] = useState<string>(VOICE_SYSTEM_INSTRUCTION);
   const [themeColor, setThemeColor] = useState<string>(DEFAULT_THEME_COLOR);
   
   const apiKey = process.env.API_KEY || '';
@@ -41,17 +42,20 @@ const App = () => {
     const storedContent = localStorage.getItem('course_content');
     const storedVoice = localStorage.getItem('voice_summary');
     const storedInstruction = localStorage.getItem('system_instruction');
+    const storedVoiceInst = localStorage.getItem('voice_instruction');
     const storedTheme = localStorage.getItem('theme_color');
     
     if (storedContent) setCourseContent(storedContent);
     if (storedVoice) setVoiceSummary(storedVoice);
     if (storedInstruction) setSystemInstruction(storedInstruction);
+    if (storedVoiceInst) setVoiceInstruction(storedVoiceInst);
     if (storedTheme) setThemeColor(storedTheme);
   }, []);
 
   const handleContentSave = (content: string) => { setCourseContent(content); localStorage.setItem('course_content', content); };
   const handleVoiceSave = (summary: string) => { setVoiceSummary(summary); localStorage.setItem('voice_summary', summary); };
   const handleInstructionSave = (instruction: string) => { setSystemInstruction(instruction); localStorage.setItem('system_instruction', instruction); };
+  const handleVoiceInstSave = (instruction: string) => { setVoiceInstruction(instruction); localStorage.setItem('voice_instruction', instruction); };
   const handleThemeSave = (color: string) => { setThemeColor(color); localStorage.setItem('theme_color', color); };
 
   const activeTheme = themeStyles[themeColor] || themeStyles.blue;
@@ -87,18 +91,13 @@ const App = () => {
                 {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
             </button>
         </div>
-        <div className="bg-slate-800/50 rounded-lg p-3 text-xs text-slate-500 hidden md:block">
-                <p>Version 1.0.0</p>
-                <p>Propulsé par Gemini 2.5</p>
-                <p>Designed by A. Coulibaly</p>
-        </div>
       </aside>
-      {/* Main Area */}
+
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10">
             <h1 className="text-2xl font-montserrat font-bold text-slate-800 dark:text-white">
-                {activeMode === AppMode.TEXT && 'Lex publica IA by A. Coulibaly'}
-                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
+                {activeMode === AppMode.TEXT && 'Assistant de Révision'}
+                {activeMode === AppMode.VOICE && 'Salle de Classe Virtuelle'}
                 {activeMode === AppMode.SETTINGS && 'Administration'}
             </h1>
             <div className="flex items-center gap-2">
@@ -112,7 +111,7 @@ const App = () => {
                 <TextChat courseContent={courseContent} systemInstruction={systemInstruction} apiKey={apiKey} themeColor={themeColor} />
             )}
             {activeMode === AppMode.VOICE && (
-                <VoiceChat courseContent={voiceSummary} systemInstruction={systemInstruction} apiKey={apiKey} themeColor={themeColor} />
+                <VoiceChat courseContent={voiceSummary} systemInstruction={voiceInstruction} apiKey={apiKey} themeColor={themeColor} />
             )}
             {activeMode === AppMode.SETTINGS && (
                 isAuthenticated ? (
@@ -123,6 +122,8 @@ const App = () => {
                         onSaveVoiceSummary={handleVoiceSave}
                         initialInstruction={systemInstruction} 
                         onSaveInstruction={handleInstructionSave} 
+                        initialVoiceInstruction={voiceInstruction}
+                        onSaveVoiceInstruction={handleVoiceInstSave}
                         initialThemeColor={themeColor} 
                         onSaveThemeColor={handleThemeSave} 
                     />
@@ -143,4 +144,3 @@ const App = () => {
 };
 
 export default App;
-
