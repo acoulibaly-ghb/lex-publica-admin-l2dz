@@ -264,7 +264,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                 <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg">
                   <Lightbulb size={24} />
                 </div>
-                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de l'Étudiant</h3>
+                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de démarrage/h3>
               </div>
               <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors">
                 <X size={20} />
@@ -277,15 +277,15 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                   <Paperclip size={18} className={colors.text} />
                   Analyse de Documents PDF
                 </h4>
-                <p>Utilisez le trombone pour joindre un arrêt ou un document de TD. L'IA l'analysera à la lumière des principes vus en cours magistral.</p>
+                <p>Utilisez le trombone de la zone de saisie pour joindre un document PDF au chat. L'IA analysera votre document PDF, puis répondra à vos demandes ou questions relativement à son contenu.</p>
               </section>
 
               <section className="space-y-2">
                 <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
                   <Layout size={18} className={colors.text} />
-                  Actions Juridiques Rapides
+                  Actions rapides
                 </h4>
-                <p>Les boutons au-dessus de la saisie permettent de générer des plans de dissertation, des fiches d'arrêt ou des glossaires instantanément.</p>
+                <p>Les boutons au-dessus de la zone de saisie permettent de générer instantanément un QUIZ, un cas pratique, un plan de dissertation, etc.</p>
               </section>
 
               <section className="space-y-2">
@@ -293,7 +293,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                   <Edit2 size={18} className={colors.text} />
                   Historique Personnalisé
                 </h4>
-                <p>Renommez vos sessions de révision dans la barre latérale pour mieux organiser vos thématiques (ex: "Police Administrative", "Recours pour Excès de Pouvoir").</p>
+                <p>Renommez ou supprimer vos sessions de discussion dans la barre latérale pour mieux organiser vos thématiques (ex: "Police Administrative", "Recours pour Excès de Pouvoir").</p>
               </section>
             </div>
             
@@ -306,6 +306,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
