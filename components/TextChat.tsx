@@ -255,22 +255,48 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
             </div>
           </div>
       </div>
+      {/* MODALE D'AIDE */}
       {isHelpOpen && (
         <div className="absolute inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-sm transition-opacity">
           <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl w-full max-w-lg flex flex-col max-h-[90%] overflow-hidden border border-slate-200 dark:border-slate-700">
             <div className="p-5 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-800/50">
               <div className="flex items-center gap-3">
-                <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg"><Lightbulb size={24} /></div>
+                <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg">
+                  <Lightbulb size={24} />
+                </div>
                 <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de l'Étudiant</h3>
               </div>
-              <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors"><X size={20} /></button>
+              <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors">
+                <X size={20} />
+              </button>
             </div>
+            
             <div className="p-6 overflow-y-auto space-y-6 text-sm text-slate-600 dark:text-slate-400">
               <section className="space-y-2">
-                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}><Paperclip size={18} className={colors.text} /> Analyse de Documents PDF</h4>
+                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
+                  <Paperclip size={18} className={colors.text} />
+                  Analyse de Documents PDF
+                </h4>
                 <p>Utilisez le trombone pour joindre un arrêt ou un document de TD. L'IA l'analysera à la lumière des principes vus en cours magistral.</p>
               </section>
+
+              <section className="space-y-2">
+                <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                  <Layout size={18} className={colors.text} />
+                  Actions Juridiques Rapides
+                </h4>
+                <p>Les boutons au-dessus de la saisie permettent de générer des plans de dissertation, des fiches d'arrêt ou des glossaires instantanément.</p>
+              </section>
+
+              <section className="space-y-2">
+                <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                  <Edit2 size={18} className={colors.text} />
+                  Historique Personnalisé
+                </h4>
+                <p>Renommez vos sessions de révision dans la barre latérale pour mieux organiser vos thématiques (ex: "Police Administrative", "Recours pour Excès de Pouvoir").</p>
+              </section>
             </div>
+            
             <div className="p-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-800">
               <button onClick={() => setIsHelpOpen(false)} className={`w-full py-3 ${colors.primary} ${colors.hover} text-white rounded-xl font-bold shadow-md transition-all`}>Retourner au cours</button>
             </div>
@@ -280,6 +306,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
