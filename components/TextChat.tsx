@@ -264,7 +264,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                 <div className="p-2 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-lg">
                   <Lightbulb size={24} />
                 </div>
-                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de démarrage/h3>
+                <h3 className="font-serif font-bold text-lg text-slate-800 dark:text-white">Guide de démarrage</h3>
               </div>
               <button onClick={() => setIsHelpOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 rounded-full transition-colors">
                 <X size={20} />
@@ -306,6 +306,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
