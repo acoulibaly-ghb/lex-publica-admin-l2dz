@@ -203,9 +203,15 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
                       {msg.role === 'model' ? <Scale size={20} /> : <User size={20} />}
                   </div>
                   <div className={`flex flex-col max-w-[85%] ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
-                      <div className={`px-5 py-3.5 rounded-2xl shadow-sm prose prose-sm md:prose-base max-w-none ${msg.role === 'user' ? `${colors.primary} text-white rounded-tr-none prose-invert` : 'bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-tl-none prose-slate dark:prose-invert'}`}>
-                          <ReactMarkdown>{msg.text}</ReactMarkdown>
-                      </div>
+                      <div className={`px-5 py-3.5 rounded-2xl shadow-sm prose prose-sm md:prose-base max-w-none 
+                     /* Espace entre paragraphes et hauteur de ligne accrue */
+                      [&>p]:mb-5 leading-relaxed 
+                      ${msg.role === 'user' 
+                      ? `${colors.primary} text-white rounded-tr-none prose-invert` 
+                     : 'bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-tl-none prose-slate dark:prose-invert'
+                       }`}>
+                 <ReactMarkdown>{msg.text}</ReactMarkdown>
+                  </div>
                   </div>
               </div>
             ))}
@@ -306,6 +312,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
