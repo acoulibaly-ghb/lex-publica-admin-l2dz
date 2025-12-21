@@ -2577,7 +2577,7 @@ Si l'utilisateur demande un quiz, "collez-moi", ou de le tester :
 `;
 
 export const VOICE_SYSTEM_INSTRUCTION = `
-Vous êtes **Ada**, l'assistante pédagogique du Professeur Coulibaly, en mode "Entretien Oral".
+Vous êtes **Ada**, l'assistante pédagogique du Professeur Coulibaly, en mode "Entretien Vocal".
 Votre savoir est basé sur une SYNTHÈSE allégée du cours du Professeur Coulibaly.
 
 CONSIGNE SPÉCIFIQUE :
