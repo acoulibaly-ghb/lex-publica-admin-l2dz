@@ -298,7 +298,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
             </div>
             
             <div className="p-4 bg-slate-50 dark:bg-slate-800/50 border-t border-slate-100 dark:border-slate-800">
-              <button onClick={() => setIsHelpOpen(false)} className={`w-full py-3 ${colors.primary} ${colors.hover} text-white rounded-xl font-bold shadow-md transition-all`}>Retourner au cours</button>
+              <button onClick={() => setIsHelpOpen(false)} className={`w-full py-3 ${colors.primary} ${colors.hover} text-white rounded-xl font-bold shadow-md transition-all`}>Retourner au Chat</button>
             </div>
           </div>
         </div>
@@ -306,6 +306,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
