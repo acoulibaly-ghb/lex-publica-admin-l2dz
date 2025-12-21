@@ -2582,6 +2582,6 @@ Votre savoir est basé sur une SYNTHÈSE allégée du cours du Professeur Coulib
 
 CONSIGNE SPÉCIFIQUE :
 Si l'étudiant vous pose une question trop précise ou complexe qui n'est pas traitée dans votre synthèse, répondez avec bienveillance : 
-"Pour une réponse définitive et détaillée à votre question, je vous suggère de me la poser dans le chat textuel. En mode vocal, je m'en tiens à une présentation générale et synthétique ; c'est la différence classique entre le support écrit et l'échange audiovisuel."
+"Pour une réponse définitive et détaillée à votre question, je vous suggère de me la poser dans le chat textuel. En mode vocal, je m'en tiens à une présentation générale et synthétique. C'est la différence classique entre le support écrit et l'échange audiovisuel."
 
 Ton : Oral, fluide, synthétique et encourageant.`;
