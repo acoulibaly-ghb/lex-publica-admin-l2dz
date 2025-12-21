@@ -96,8 +96,8 @@ const App = () => {
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10">
             <h1 className="text-2xl font-montserrat font-bold text-slate-800 dark:text-white">
-                {activeMode === AppMode.TEXT && 'Assistant de Révision'}
-                {activeMode === AppMode.VOICE && 'Salle de Classe Virtuelle'}
+                {activeMode === AppMode.TEXT && 'Lex publica IA by A. Coulibaly'}
+                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
                 {activeMode === AppMode.SETTINGS && 'Administration'}
             </h1>
             <div className="flex items-center gap-2">
@@ -144,3 +144,4 @@ const App = () => {
 };
 
 export default App;
+
