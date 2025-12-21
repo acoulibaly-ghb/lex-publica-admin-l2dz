@@ -95,16 +95,33 @@ const App = () => {
 
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10">
-            <h1 className="text-2xl font-montserrat font-bold text-slate-800 dark:text-white">
-                {activeMode === AppMode.TEXT && 'Lex publica IA by A. Coulibaly'}
-                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
-                {activeMode === AppMode.SETTINGS && 'Administration'}
-            </h1>
-            <div className="flex items-center gap-2">
-                <div className={`h-2 w-2 rounded-full ${activeTheme.bg}`}></div>
-                <span className="text-xs font-bold uppercase tracking-widest text-slate-400">Système Prêt</span>
-            </div>
-        </header>
+  {/* Gauche : Titre */}
+  <div className="min-w-0">
+    <h1 className="font-montserrat text-xl md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
+      {activeMode === AppMode.TEXT && (
+        <>
+          Lex publica IA{' '}
+          <span className="font-normal opacity-60">by A. Coulibaly</span>
+        </>
+      )}
+      {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
+      {activeMode === AppMode.SETTINGS && 'Administration'}
+    </h1>
+
+    {/* Optionnel : sous-ligne informative, très discrète (tu peux supprimer si tu n’en veux pas) */}
+    <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400 truncate">
+      Assistant pédagogique — Droit administratif général
+    </p>
+  </div>
+
+  {/* Droite : Statut */}
+  <div className="ml-6 flex items-center gap-2 shrink-0">
+    <span className={`h-2 w-2 rounded-full ${activeTheme.bg}`} aria-hidden="true" />
+    <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+      Système prêt
+    </span>
+  </div>
+</header>
 
         <div className="flex-1 p-4 md:p-6 overflow-hidden">
             {activeMode === AppMode.TEXT && (
@@ -144,4 +161,5 @@ const App = () => {
 };
 
 export default App;
+
 
