@@ -29,7 +29,12 @@ const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [passwordInput, setPasswordInput] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    const savedTheme = localStorage.getItem('theme');
+  const savedTheme = localStorage.getItem('theme');
+    // 1. Importez d'abord useState en haut du fichier si ce n'est pas fait
+import React, { useState } from 'react';
+
+// ... à l'intérieur de la fonction App :
+const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     return savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
   });
 
@@ -174,6 +179,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
