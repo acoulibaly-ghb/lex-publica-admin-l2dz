@@ -94,28 +94,41 @@ const App = () => {
       </aside>
 
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
-        <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-8 shrink-0 z-10">
-  {/* Gauche : Titre */}
-  <div className="min-w-0">
-    <h1 className="font-montserrat text-xl md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
-      {activeMode === AppMode.TEXT && (
-        <>
-          Lex publica IA{' '}
-          <span className="font-normal opacity-60">by A. Coulibaly</span>
-        </>
-      )}
-      {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
-      {activeMode === AppMode.SETTINGS && 'Administration'}
-    </h1>
+        <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-4 md:px-8 shrink-0 z-10 pt-[env(safe-area-inset-top)]">
+  
+  {/* Gauche : Menu Burger (Mobile) + Titre */}
+  <div className="flex items-center gap-3 min-w-0">
+    
+    {/* BOUTON BURGER : Visible uniquement sur mobile (md:hidden) */}
+    <button 
+      onClick={() => setIsSidebarOpen(true)} // Fonction pour ouvrir la barre noire
+      className="md:hidden p-2 -ml-2 text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg"
+      aria-label="Ouvrir le menu"
+    >
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
 
-    {/* Optionnel : sous-ligne informative, très discrète (tu peux supprimer si tu n’en veux pas) */}
-    <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400 truncate">
-      Assistant pédagogique — Droit administratif général
-    </p>
+    <div className="min-w-0">
+      <h1 className="font-montserrat text-lg md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
+        {activeMode === AppMode.TEXT && (
+          <>
+            Lex publica IA{' '}
+            <span className="hidden sm:inline font-normal opacity-60">by A. Coulibaly</span>
+          </>
+        )}
+        {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
+        {activeMode === AppMode.SETTINGS && 'Administration'}
+      </h1>
+      <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate">
+        Assistant pédagogique — Droit administratif général
+      </p>
+    </div>
   </div>
 
-  {/* Droite : Statut */}
-  <div className="ml-6 flex items-center gap-2 shrink-0">
+  {/* Droite : Statut (Caché sur petit mobile pour gagner de la place) */}
+  <div className="ml-4 hidden sm:flex items-center gap-2 shrink-0">
     <span className={`h-2 w-2 rounded-full ${activeTheme.bg}`} aria-hidden="true" />
     <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
       Système prêt
@@ -161,5 +174,6 @@ const App = () => {
 };
 
 export default App;
+
 
 
