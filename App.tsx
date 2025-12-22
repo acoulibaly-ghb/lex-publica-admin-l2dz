@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import { MessageSquare, Mic, GraduationCap, Lock, Unlock, Moon, Sun } from 'lucide-react';
+import { MessageSquare, Mic, GraduationCap, Lock, Unlock, Moon, Sun, X } from 'lucide-react'; // Ajout de X pour fermer
 import { TextChat } from './components/TextChat';
 import { VoiceChat } from './components/VoiceChat';
 import { CourseEditor } from './components/CourseEditor';
@@ -11,7 +10,7 @@ const themeStyles: Record<string, { bg: string, text: string }> = {
   blue: { bg: 'bg-blue-600', text: 'text-blue-600' },
   emerald: { bg: 'bg-emerald-600', text: 'text-emerald-600' },
   indigo: { bg: 'bg-indigo-600', text: 'text-indigo-600' },
-  rose: { bg: 'bg-[#ad5c51]', text: 'text-[#ad5c51]' }, // Rose Brique Toulouse
+  rose: { bg: 'bg-[#ad5c51]', text: 'text-[#ad5c51]' },
   amber: { bg: 'bg-amber-600', text: 'text-amber-600' },
 };
 
@@ -22,19 +21,16 @@ const App = () => {
   const [systemInstruction, setSystemInstruction] = useState<string>(SYSTEM_INSTRUCTION);
   const [voiceInstruction, setVoiceInstruction] = useState<string>(VOICE_SYSTEM_INSTRUCTION);
   const [themeColor, setThemeColor] = useState<string>(DEFAULT_THEME_COLOR);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // État pour le menu mobile
   
   const apiKey = process.env.API_KEY || '';
   const teacherPassword = process.env.TEACHER_PASSWORD || 'admin';
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [passwordInput, setPasswordInput] = useState('');
+  
   const [isDarkMode, setIsDarkMode] = useState(() => {
-  const savedTheme = localStorage.getItem('theme');
-    // 1. Importez d'abord useState en haut du fichier si ce n'est pas fait
-import React, { useState } from 'react';
-
-// ... à l'intérieur de la fonction App :
-const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const savedTheme = localStorage.getItem('theme');
     return savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
   });
 
@@ -44,24 +40,23 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   }, [isDarkMode]);
 
   useEffect(() => {
-    const storedContent = localStorage.getItem('course_content');
-    const storedVoice = localStorage.getItem('voice_summary');
-    const storedInstruction = localStorage.getItem('system_instruction');
-    const storedVoiceInst = localStorage.getItem('voice_instruction');
-    const storedTheme = localStorage.getItem('theme_color');
-    
-    if (storedContent) setCourseContent(storedContent);
-    if (storedVoice) setVoiceSummary(storedVoice);
-    if (storedInstruction) setSystemInstruction(storedInstruction);
-    if (storedVoiceInst) setVoiceInstruction(storedVoiceInst);
-    if (storedTheme) setThemeColor(storedTheme);
+    const items = [
+      { key: 'course_content', setter: setCourseContent },
+      { key: 'voice_summary', setter: setVoiceSummary },
+      { key: 'system_instruction', setter: setSystemInstruction },
+      { key: 'voice_instruction', setter: setVoiceInstruction },
+      { key: 'theme_color', setter: setThemeColor }
+    ];
+    items.forEach(item => {
+      const stored = localStorage.getItem(item.key);
+      if (stored) item.setter(stored);
+    });
   }, []);
 
-  const handleContentSave = (content: string) => { setCourseContent(content); localStorage.setItem('course_content', content); };
-  const handleVoiceSave = (summary: string) => { setVoiceSummary(summary); localStorage.setItem('voice_summary', summary); };
-  const handleInstructionSave = (instruction: string) => { setSystemInstruction(instruction); localStorage.setItem('system_instruction', instruction); };
-  const handleVoiceInstSave = (instruction: string) => { setVoiceInstruction(instruction); localStorage.setItem('voice_instruction', instruction); };
-  const handleThemeSave = (color: string) => { setThemeColor(color); localStorage.setItem('theme_color', color); };
+  const handleModeChange = (mode: AppMode) => {
+    setActiveMode(mode);
+    setIsSidebarOpen(false); // Ferme le menu auto sur mobile après sélection
+  };
 
   const activeTheme = themeStyles[themeColor] || themeStyles.blue;
 
@@ -73,75 +68,86 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <div className="flex h-screen bg-slate-100 dark:bg-slate-950 overflow-hidden text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
-      <aside className="w-20 md:w-64 bg-slate-900 dark:bg-black text-slate-300 flex flex-col border-r border-slate-800">
-        <div className="p-6 flex items-center gap-3 border-b border-slate-800">
-            <div className={`w-10 h-10 ${activeTheme.bg} rounded-lg flex items-center justify-center text-white shrink-0 shadow-lg`}>
-                <GraduationCap size={24} />
+      
+      {/* OVERLAY MOBILE : Fond sombre quand le menu est ouvert */}
+      {isSidebarOpen && (
+        <div 
+          className="fixed inset-0 bg-black/60 z-40 md:hidden transition-opacity"
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+
+      {/* ASIDE : Maintenant totalement responsive */}
+      <aside className={`
+        fixed inset-y-0 left-0 z-50 w-64 bg-slate-900 dark:bg-black text-slate-300 flex flex-col border-r border-slate-800 transition-transform duration-300 ease-in-out
+        ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
+        md:relative md:translate-x-0 md:flex md:w-64
+      `}>
+        <div className="p-6 flex items-center justify-between border-b border-slate-800">
+            <div className="flex items-center gap-3">
+              <div className={`w-10 h-10 ${activeTheme.bg} rounded-lg flex items-center justify-center text-white shrink-0 shadow-lg`}>
+                  <GraduationCap size={24} />
+              </div>
+              <span className="font-montserrat font-bold text-xl text-white tracking-wide">Droit Public</span>
             </div>
-            <span className="font-montserrat font-bold text-xl text-white hidden md:block tracking-wide">Droit Public</span>
+            {/* Bouton fermer visible seulement sur mobile */}
+            <button onClick={() => setIsSidebarOpen(false)} className="md:hidden text-slate-400">
+              <X size={24} />
+            </button>
         </div>
+        
         <nav className="flex-1 p-4 space-y-2">
-            <button onClick={() => setActiveMode(AppMode.TEXT)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.TEXT ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
-                <MessageSquare size={20} /><span className="hidden md:block font-medium">Discussion</span>
+            <button onClick={() => handleModeChange(AppMode.TEXT)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.TEXT ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
+                <MessageSquare size={20} /><span className="font-medium">Discussion</span>
             </button>
-            <button onClick={() => setActiveMode(AppMode.VOICE)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.VOICE ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
-                <Mic size={20} /><span className="hidden md:block font-medium">Mode vocal</span>
+            <button onClick={() => handleModeChange(AppMode.VOICE)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.VOICE ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
+                <Mic size={20} /><span className="font-medium">Mode vocal</span>
             </button>
-            <button onClick={() => setActiveMode(AppMode.SETTINGS)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.SETTINGS ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
-                {isAuthenticated ? <Unlock size={20} /> : <Lock size={20} />}<span className="hidden md:block font-medium">Configuration</span>
+            <button onClick={() => handleModeChange(AppMode.SETTINGS)} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${activeMode === AppMode.SETTINGS ? `${activeTheme.bg} text-white shadow-md` : 'hover:bg-slate-800'}`}>
+                {isAuthenticated ? <Unlock size={20} /> : <Lock size={20} />}<span className="font-medium">Configuration</span>
             </button>
         </nav>
+
         <div className="p-4 border-t border-slate-800">
             <button onClick={() => setIsDarkMode(!isDarkMode)} className="w-full flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white transition-colors">
-                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="hidden md:block text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
+                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
             </button>
         </div>
       </aside>
 
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
         <header className="h-20 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-4 md:px-8 shrink-0 z-10 pt-[env(safe-area-inset-top)]">
-  
-  {/* Gauche : Menu Burger (Mobile) + Titre */}
-  <div className="flex items-center gap-3 min-w-0">
-    
-    {/* BOUTON BURGER : Visible uniquement sur mobile (md:hidden) */}
-    <button 
-      onClick={() => setIsSidebarOpen(true)} // Fonction pour ouvrir la barre noire
-      className="md:hidden p-2 -ml-2 text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg"
-      aria-label="Ouvrir le menu"
-    >
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
+          <div className="flex items-center gap-3 min-w-0">
+            <button 
+              onClick={() => setIsSidebarOpen(true)} 
+              className="md:hidden p-2 -ml-2 text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
 
-    <div className="min-w-0">
-      <h1 className="font-montserrat text-lg md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
-        {activeMode === AppMode.TEXT && (
-          <>
-            Lex publica IA{' '}
-            <span className="hidden sm:inline font-normal opacity-60">by A. Coulibaly</span>
-          </>
-        )}
-        {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
-        {activeMode === AppMode.SETTINGS && 'Administration'}
-      </h1>
-      <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate">
-        Assistant pédagogique — Droit administratif général
-      </p>
-    </div>
-  </div>
+            <div className="min-w-0">
+              <h1 className="font-montserrat text-lg md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
+                {activeMode === AppMode.TEXT && (
+                  <>Lex publica IA <span className="hidden sm:inline font-normal opacity-60">by A. Coulibaly</span></>
+                )}
+                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
+                {activeMode === AppMode.SETTINGS && 'Administration'}
+              </h1>
+              <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate uppercase tracking-wider font-medium">
+                Assistant pédagogique — Droit administratif général
+              </p>
+            </div>
+          </div>
 
-  {/* Droite : Statut (Caché sur petit mobile pour gagner de la place) */}
-  <div className="ml-4 hidden sm:flex items-center gap-2 shrink-0">
-    <span className={`h-2 w-2 rounded-full ${activeTheme.bg}`} aria-hidden="true" />
-    <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-      Système prêt
-    </span>
-  </div>
-</header>
+          <div className="ml-4 hidden sm:flex items-center gap-2 shrink-0">
+            <span className={`h-2 w-2 rounded-full ${activeTheme.bg}`} aria-hidden="true" />
+            <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">Système prêt</span>
+          </div>
+        </header>
 
-        <div className="flex-1 p-4 md:p-6 overflow-hidden">
+        <div className="flex-1 p-3 md:p-6 overflow-hidden">
             {activeMode === AppMode.TEXT && (
                 <TextChat courseContent={courseContent} systemInstruction={systemInstruction} apiKey={apiKey} themeColor={themeColor} />
             )}
@@ -151,16 +157,11 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
             {activeMode === AppMode.SETTINGS && (
                 isAuthenticated ? (
                     <CourseEditor 
-                        initialContent={courseContent} 
-                        onSaveContent={handleContentSave} 
-                        initialVoiceSummary={voiceSummary}
-                        onSaveVoiceSummary={handleVoiceSave}
-                        initialInstruction={systemInstruction} 
-                        onSaveInstruction={handleInstructionSave} 
-                        initialVoiceInstruction={voiceInstruction}
-                        onSaveVoiceInstruction={handleVoiceInstSave}
-                        initialThemeColor={themeColor} 
-                        onSaveThemeColor={handleThemeSave} 
+                        initialContent={courseContent} onSaveContent={setCourseContent} 
+                        initialVoiceSummary={voiceSummary} onSaveVoiceSummary={setVoiceSummary}
+                        initialInstruction={systemInstruction} onSaveInstruction={setSystemInstruction} 
+                        initialVoiceInstruction={voiceInstruction} onSaveVoiceInstruction={setVoiceInstruction}
+                        initialThemeColor={themeColor} onSaveThemeColor={setThemeColor} 
                     />
                 ) : (
                     <div className="flex items-center justify-center h-full">
@@ -179,7 +180,3 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 };
 
 export default App;
-
-
-
-
