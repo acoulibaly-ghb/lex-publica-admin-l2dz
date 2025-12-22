@@ -128,17 +128,39 @@ const App = () => {
             </button>
 
             <div className="min-w-0">
-              <h1 className="font-montserrat text-lg md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
-                {activeMode === AppMode.TEXT && (
-                  <>ADA, Lex publica IA <span className="hidden sm:inline font-normal opacity-60">...</span></>
-                )}
-                {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
-                {activeMode === AppMode.SETTINGS && 'Administration'}
-              </h1>
-              <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate uppercase tracking-wider font-medium">
-                A. Coulibaly — Droit administratif général
-              </p>
-            </div>
+  <h1 className="font-montserrat tracking-tight text-slate-900 dark:text-white leading-tight">
+    {activeMode === AppMode.TEXT && (
+      <>
+        {/* 1) L’agent */}
+        <span className="block text-lg md:text-2xl font-semibold truncate">
+          Ada
+        </span>
+
+        {/* 2) Le cadre (marque) */}
+        <span className="block text-sm md:text-xl font-medium truncate">
+          Lex publica <span className="font-normal opacity-70">IA</span>
+        </span>
+      </>
+    )}
+
+    {activeMode === AppMode.VOICE && (
+      <span className="block text-lg md:text-2xl font-semibold truncate">
+        Entretien Virtuel
+      </span>
+    )}
+
+    {activeMode === AppMode.SETTINGS && (
+      <span className="block text-lg md:text-2xl font-semibold truncate">
+        Administration
+      </span>
+    )}
+  </h1>
+
+  {/* 3) Garantie académique */}
+  <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate uppercase tracking-wider font-medium">
+    A. Coulibaly — Droit administratif général
+  </p>
+</div>
           </div>
 
           <div className="ml-4 hidden sm:flex items-center gap-2 shrink-0">
@@ -180,6 +202,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
