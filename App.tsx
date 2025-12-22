@@ -130,7 +130,7 @@ const App = () => {
             <div className="min-w-0">
               <h1 className="font-montserrat text-lg md:text-2xl font-semibold tracking-tight text-slate-900 dark:text-white truncate">
                 {activeMode === AppMode.TEXT && (
-                  <>ADA, Lex publica IA <span className="hidden sm:inline font-normal opacity-60"...</span></>
+                  <>ADA, Lex publica IA <span className="hidden sm:inline font-normal opacity-60">...</span></>
                 )}
                 {activeMode === AppMode.VOICE && 'Entretien Virtuel'}
                 {activeMode === AppMode.SETTINGS && 'Administration'}
@@ -180,5 +180,6 @@ const App = () => {
 };
 
 export default App;
+
 
 
