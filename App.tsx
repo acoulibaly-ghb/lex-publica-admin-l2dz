@@ -132,7 +132,7 @@ const App = () => {
     {activeMode === AppMode.TEXT && (
       <>
         {/* 1) L’agent */}
-        <span className="block text-lg md:text-2xl font-semibold truncate">
+        <span className={`block text-lg md:text-2xl font-semibold truncate ${activeTheme.text}`}>
           Ada
         </span>
 
@@ -202,6 +202,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
