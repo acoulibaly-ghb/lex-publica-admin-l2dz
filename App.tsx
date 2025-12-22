@@ -136,7 +136,7 @@ const App = () => {
                 {activeMode === AppMode.SETTINGS && 'Administration'}
               </h1>
               <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate uppercase tracking-wider font-medium">
-                Assistant pédagogique — Droit administratif général
+                A. Coulibaly — Droit administratif général
               </p>
             </div>
           </div>
@@ -180,3 +180,4 @@ const App = () => {
 };
 
 export default App;
+
