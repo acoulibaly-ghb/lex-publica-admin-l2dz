@@ -543,7 +543,7 @@ b – Le lien indirect avec une personne publique
 Une personne privée gère une activité d'intérêt général, mais avec l’habilitation (c’est-à-dire l’autorisation) et sous le contrôle d’une personne publique. 
 
 
- Depuis fort longtemps, la jurisprudence reconnaît qu’une personne privée (entreprise privée, association, etc.) peut gérer un service public : CE, assemblée, 20 décembre 1935, Société anonyme des Établissements Vezia ; CE, assemblée, 13 mai 1938, Caisse primaire « Aide et protection ».
+ Depuis fort longtemps, la jurisprudence reconnaît qu’une personne privée (entreprise privée, association, etc.) peut gérer un service public : CE, ass., 20 décembre 1935, Société anonyme des Établissements Vezia ; CE, ass., 13 mai 1938, Caisse primaire « Aide et protection ».
  Précision importante : Une personne privée chargée de gérer un service public n’est pas forcément dotée de prérogatives de puissance – CE, sect., 22 février 2007, Association du Personnel Relevant des Établissements pour Inadaptés (A.P.R.E.I.). Sur la notion de prérogatives de puissance, voir Cours sur les actes administratifs unilatéraux. 
  La personne privée est habilitée (autorisée) par une personne publique (en général, État ou collectivité territoriale) à gérer un service public. 
 L’habilitation peut prendre la forme d’une autorisation unilatérale ou d’un contrat.
@@ -597,7 +597,7 @@ Les collectivités publiques peuvent choisir librement de gérer en régie direc
 La loi ou la jurisprudence impose la gestion en régie directe pour de nombreux services publics, qui ne peuvent donc être délégués.
 Ainsi, les collectivités territoriales doivent, par exemple, assurer en régie directe les missions qu’elles accomplissent au nom et pour le compte de l’État (état civil, service des élections). 
 Il en va de même en ce qui concerne l’instruction et la délivrance des permis de construire. 
-Les missions de police administrative doivent également être gérées en régie directe, sauf lorsque la loi ou un texte réglementaire autorise une délégation (CE, assemblée, 17juin 1932, Ville de Castelnaudary, à propos de la police rurale ; CE, 1er avril 1994, Commune de Menton et autres, à propos de la police du stationnement). 
+Les missions de police administrative doivent également être gérées en régie directe, sauf lorsque la loi ou un texte réglementaire autorise une délégation (CE, ass., 17juin 1932, Ville de Castelnaudary, à propos de la police rurale ; CE, 1er avril 1994, Commune de Menton et autres, à propos de la police du stationnement). 
 En matière de cantines scolaires, la confection et la préparation des repas peuvent être déléguées, mais non la surveillance des élèves (CE, avis, 7 octobre 1986).
 2. Seconde série d’atténuations à la liberté de choisir la gestion en régie directe du service public :
  La gestion en régie directe est exclue lorsque le législateur impose aux collectivités territoriales la création d’un établissement public. C’est le cas, par exemple, en matière d’action sociale, des centres communaux ou intercommunaux d’action sociale, dont le régime juridique est fixé aux articles L. 123-4 et suivants du code de l’action sociale et des familles ou, en matière de vie scolaire, des caisses des écoles dont le régime est fixé aux articles L. 212-10 et suivants du code de l’éducation. 
@@ -617,7 +617,7 @@ Deux solutions sont envisageables :
 * soit la personne publique ou privée à qui la collectivité publique a délégué le service public se rémunère elle-même en prélevant sur les usagers (les clients) du service public un droit d’accès dénommé « redevance ».
 
 
-Constituent des redevances les sommes « demandées à des usagers en vue de couvrir les charges d'un service public déterminé ou les frais d'établissement et d'entretien d'un ouvrage public, et qui trouvent leur contrepartie directe dans des prestations fournies par le service ou dans l'utilisation de l'ouvrage » – CE, Assemblée, 21 novembre 1958, Syndicat national des transporteurs aériens.
+Constituent des redevances les sommes « demandées à des usagers en vue de couvrir les charges d'un service public déterminé ou les frais d'établissement et d'entretien d'un ouvrage public, et qui trouvent leur contrepartie directe dans des prestations fournies par le service ou dans l'utilisation de l'ouvrage » – CE, Ass., 21 novembre 1958, Syndicat national des transporteurs aériens.
 
 
 La légalité de l’établissement d’une redevance est subordonnée à trois conditions :
@@ -774,12 +774,12 @@ Nous avons intentionnellement passé sous silence ces exceptions que les étudia
  La distinction SPA – SPIC a été affirmée, pour la première fois avec éclat, dans une décision du Tribunal des conflits : 
 TC, 22 janvier 1921, Colonie de la Côte d’Ivoire contre Société commerciale de l’Ouest africain – arrêt dit du Bac d’Eloka. 
  C’est une autre décision, celle du Conseil d’État qui a énoncé les critères de la distinction SPA – SPIC : 
-CE, Assemblée, 16 novembre 1956, Union syndicale des industries aéronautiques (arrêt connu sous l’appellation familière « arrêt USIA »).
+CE, Ass., 16 novembre 1956, Union syndicale des industries aéronautiques (arrêt connu sous l’appellation familière « arrêt USIA »).
 Que se passe-t-il lorsqu’un service public a été qualifié de SPA ou de SPIC par un texte ?  
 Dans ce cas deux hypothèses sont à envisager.  
 1. Qualification de SPA ou de SPIC donnée à un service public par une loi (qualification législative) : le juge prend acte de la volonté parlementaire, applique la loi et retient ipso facto la qualification de SPA ou de SPIC donnée par le législateur – TC, 29 décembre 2004, Époux Blanckeman contre Voies navigables de France.
 2. Qualification de SPA ou de SPIC donnée à un service public par un acte administratif (décret ou arrêté, qualification réglementaire) :  le juge modifie cette qualification s’il la juge erronée ; il dira qu’il s’agit en réalité d’un SPA et non d’un SPIC ou inversement — TC, 24 juin 1968, Société des distilleries bretonnes ; CE, 4 juillet 1986, Berger.
- Faute de qualification législative le juge fait application des trois critères énoncés par l’arrêt « USIA » précité : CE, assemblée, 16 novembre 1956, Union syndicale des industries aéronautiques. 
+ Faute de qualification législative le juge fait application des trois critères énoncés par l’arrêt « USIA » précité : CE, ass., 16 novembre 1956, Union syndicale des industries aéronautiques. 
 C'est l’examen de ces trois critères qui fera apparaître un service comme un service public à caractère administratif ou comme un service public à caractère industriel et commercial. 
 Néanmoins, aucun de ces trois critères ne peut être considéré a priori comme décisif, car le juge apprécie au cas par cas. 
 Présentation des trois critères :
@@ -803,7 +803,7 @@ Définition : Un service public à caractère administratif (SPA) est un service
 
 Définition : Un service public à caractère industriel et commercial (SPIC) est un service public qui, par son objet, l’origine de ses ressources et les modalités de son fonctionnement ressemble à une entreprise privée.
 
-Les deux définitions qui précèdent (SPA et SPIC) sont basées sur l’arrêt CE, Assemblée, 16 novembre 1956, Union syndicale des industries aéronautiques(arrêt connu sous l’appellation familière « arrêt USIA »). 
+Les deux définitions qui précèdent (SPA et SPIC) sont basées sur l’arrêt CE, Ass., 16 novembre 1956, Union syndicale des industries aéronautiques(arrêt connu sous l’appellation familière « arrêt USIA »). 
 
  Le juge a qualifié de SPIC :
 * le service public de la distribution de l’eau – TC, 21 mars 2005, Mme Alberti-Scott ;
@@ -866,7 +866,7 @@ Signalons, en passant, que le mot de « grève » a pour origine le nom de la pl
 
  Le Conseil d’État présente la nécessité de concilier le droit de grève avec la continuité du service public dans les termes suivants :  
 Si le principe de continuité du service public « a le caractère d'un principe de valeur constitutionnelle, il en va de même pour le droit de grève ». 
-« Il appartient au législateur et, dans le respect des dispositions édictées par ce dernier, au pouvoir réglementaire et à l'autorité administrative chargée d'un service public d'opérer la conciliation nécessaire entre la défense des intérêts professionnels, dont la grève est un moyen, et la sauvegarde de l'intérêt général, auquel la grève peut être de nature à porter atteinte, en apportant des limitations au droit de grève en vue d'assurer la continuité du service public, dans la mesure de ce qu'imposent les nécessités de l'ordre public et les besoins essentiels du pays. » — CE, 25 avril 2024, Société Aer Lingus et autres. (Cf. aussi CE, Assemblée, 7 juillet 1950, Dehaene)
+« Il appartient au législateur et, dans le respect des dispositions édictées par ce dernier, au pouvoir réglementaire et à l'autorité administrative chargée d'un service public d'opérer la conciliation nécessaire entre la défense des intérêts professionnels, dont la grève est un moyen, et la sauvegarde de l'intérêt général, auquel la grève peut être de nature à porter atteinte, en apportant des limitations au droit de grève en vue d'assurer la continuité du service public, dans la mesure de ce qu'imposent les nécessités de l'ordre public et les besoins essentiels du pays. » — CE, 25 avril 2024, Société Aer Lingus et autres. (Cf. aussi CE, Ass., 7 juillet 1950, Dehaene)
 Concrètement, il y a un principe et des exceptions.
 1. Le principe :
  Les agents du service public en général ont le droit de se mettre en grève, moyennant toutefois le dépôt d’un préavis et des retenues sur traitement (salaire) dans la fonction publique.
@@ -943,7 +943,7 @@ Au regard de ces principes, le Conseil d’État a jugé légale la fixation de 
 * pour l’accès aux écoles de musique municipales, selon les ressources des familles — CE, sect., 29 décembre 1997, Commune de Gennevilliers. 
 *
  Nota bene : L’administration n’a pas l’obligation de traiter différemment des personnes se trouvant dans des situations différentes. 
-Certes, comme nous l’avons vu, l’administration a le droit de traiter différemment des personnes se trouvant dans des situations différentes. Mais il faut savoir que, selon le CE, elle n’en a pas l’obligation, sauf disposition législative contraire : CE, Assemblée, 28 mars 1997, Société Baxter et autres. 
+Certes, comme nous l’avons vu, l’administration a le droit de traiter différemment des personnes se trouvant dans des situations différentes. Mais il faut savoir que, selon le CE, elle n’en a pas l’obligation, sauf disposition législative contraire : CE, Ass., 28 mars 1997, Société Baxter et autres. 
 En d’autres termes, vous ne pouvez pas exiger de l’administration qu’elle vous traite différemment au motif que votre situation serait différente de celle des autres.
 **
 
@@ -996,7 +996,7 @@ Définition générique : Le concours est un procédé de recrutement caractéri
 Le principe de l'égal accès aux emplois publics s’oppose aux discriminations, qu’elles soient négatives ou positives.
 Les « discriminations négatives » sont évidemment interdites lors du recrutement aux emplois publics.
 Exemple 1 : discrimination fondée sur les opinions politiques
-CE, assemblée, 28 mai 1954, Barel et autres. 
+CE, ass., 28 mai 1954, Barel et autres. 
 Contexte : la guerre froide bat son plein ; aux États-Unis, sévit le maccarthysme, véritable chasse aux « sorcières communistes ». En France se pose la question de l’admission des communistes à l’ENA. Le secrétaire d’État à la Fonction publique croit pouvoir et devoir répondre par la négative10. Le Conseil d’État censure sa décision au nom du principe de l’égal accès des citoyens aux emplois publics - position contraire à celle adoptée en 1952 par la Cour constitutionnelle allemande. 
 Exemple 2 :  discrimination fondée sur les croyances religieuses
 De manière générale, la pratique d’une religion ne doit en aucun cas constituer un critère discriminant à l’encontre d’un candidat (CE, 25 juillet 1939, Demoiselle Beis, rec. p. 524) ou d’un agent contractuel prétendant à la titularisation (CE, 3 mai 1950, Demoiselle Jamet, précité). Un concours d’officiers de police a ainsi été annulé en raison des questions que le jury avait posées à un candidat sur son origine et sur ses pratiques confessionnelles ainsi que sur celles de son épouse (CE, 10 avril 2009, M. E.H.).
@@ -1042,7 +1042,7 @@ La fonction de prestation est remplie dans le cadre d'une réglementation.
 
 Ainsi donc, on peut dire que la police administrative, qui est principalement une activité normative, est accessoirement un service public.
 Mais c’est un service public différent des autres à deux points de vue.
-Premièrement, contrairement à la plupart des autres services publics, le service public de la police ne peut être délégué purement et simplement à une personne privée – CE, assemblée, 17 juin 1932, Ville de Castelnaudary.  
+Premièrement, contrairement à la plupart des autres services publics, le service public de la police ne peut être délégué purement et simplement à une personne privée – CE, ass., 17 juin 1932, Ville de Castelnaudary.  
 * Exemple 1 : CE, section, 23 mai 1958, Consorts Amoudruz, Rec. p. 301. Une commune a concédé à une personne privée l’exploitation d’une plage publique ; mais, selon le juge, cette commune reste responsable de la sécurité des baigneurs (mission de police administrative).
 Deuxièmement, l’administration ne peut, en principe, exiger des bénéficiaires du service public de la police le paiement d’une redevance. Motif : le service public de la police est financé par l’impôt ; il s’ensuit qu’il est en principe gratuit pour l’usager.
 I – L'identification de la police administrative
@@ -1116,7 +1116,7 @@ b – L’admission expresse du respect de la dignité de la personne humaine
 On peut parler de reconnaissance en deux temps.
 Le Conseil constitutionnel reconnaît « le principe constitutionnel de sauvegarde de la dignité humaine contre toute forme d'asservissement et de dégradation » – Décision du 27 juillet 1994, Loi relative au respect du corps humain et loi relative au don et à l’utilisation des éléments et produits du corps humain, à l’assistance médicale à la procréation et au diagnostic prénatal.
 Le Conseil d’État admet expressément que le respect de la dignité de la personne humaine fait partie de l’ordre public.
-CE, assemblée, 27 octobre 1995, Commune de Morsang-sur-Orge :
+CE, ass., 27 octobre 1995, Commune de Morsang-sur-Orge :
 Affaires relatives au spectacle dénommé « le lancer de nain » :
 Question posée au Conseil d’État : Un maire a-t-il le droit d'interdire l'attraction dénommée « lancer de nain » et qui consiste à faire lancer un nain par des spectateurs ? 
 Réponse du Conseil d’État : Un maire a le droit d'interdire un tel spectacle.
@@ -1390,7 +1390,7 @@ a – La consécration expresse du principe du triple test de proportionnalité
  SAUVÉ (Jean-Marc), 17 mars 2017, « Le principe de proportionnalité, protecteur des libertés »
 * CE, 19 mai 1933, Benjamin :
 Ce premier arrêt introduit la logique de la proportionnalité dans le contrôle des mesures de police administrative. Voir Analyse par le Conseil d’État de l'arrêt CE, 19 mai 1933, Benjamin.
-* CE, assemblée, 26 octobre 2011, Association pour la promotion de l’image et autres. 
+* CE, ass., 26 octobre 2011, Association pour la promotion de l’image et autres. 
 Dans ce second arrêt, le Conseil d’Etat soumet pour la première fois les mesures de police administrative au « triple test de proportionnalité ».
  Question : Que signifie exactement l’expression « triple test de proportionnalité » ? 
  Réponse : Cette expression désigne les trois vérifications auxquelles procède le juge lorsqu’il contrôle la légalité d’une mesure de police administrative contestée devant lui. Concrètement, « triple test de proportionnalité » signifie que le juge vérifie, expressément ou implicitement, que la mesure de police administrative contestée est 
@@ -1465,7 +1465,7 @@ Par un arrêté de police, il interdit cette activité de vente ambulante, sous 
 Le Conseil d’État juge illégal l’arrêté d’interdiction, car le préfet « ne pouvait légalement […] édicter une mesure d’interdiction générale et permanente ».
 Toutefois, l’autorité administrative elle n’a pas le droit de prendre une mesure en apparence moins énergique que l’interdiction : créer un régime d’autorisation.
  En effet, l’autorité de police ne saurait, sous peine d’attenter aux libertés individuelles ou publiques, décider de soumettre l’exercice d’une activité professionnelle à un régime d’autorisation ou de déclaration préalable qui n’aurait pas été prévu par la loi, sauf si l’activité en cause a lieu sur le domaine public : 
-* CE, assemblée, 22 juin 1951, Daudignac : A commis un excès de pouvoir le maire de Montauban qui « a soumis à une autorisation […] l'exercice, même temporaire, de la profession de photographe sur la voie publique » (profession dite de photographe-filmeur) ;
+* CE, ass., 22 juin 1951, Daudignac : A commis un excès de pouvoir le maire de Montauban qui « a soumis à une autorisation […] l'exercice, même temporaire, de la profession de photographe sur la voie publique » (profession dite de photographe-filmeur) ;
 * CE, section, 29 janvier 1932, Société des autobus antibois : « [I]l appartient au maire de subordonner à la délivrance d’une autorisation l’exploitation d’un service fonctionnant à l’intérieur de l’agglomération urbaine » sur le domaine public.
 **
 
@@ -1661,7 +1661,7 @@ L’acte réglementaire revêt un caractère général et impersonnel (Ici, gén
  Un acte unilatéral peut être considéré comme individuel même s’il a pour destinataires plusieurs personnes. Ce qui est pertinent, c’est le fait qu’il les désigne nommément.
  Un acte unilatéral peut être tenu pour réglementaire même s’il a pour destinataire une seule personne – par exemple, décret n° 2011-905 du 29 juillet 2011 s’appliquant au Défenseur des droits. Ce qui est pertinent, c’est le fait qu’il ne désigne pas cette personne par son nom, mais, par exemple, par sa qualité.
 * Exemples intéressants d’actes réglementaires
- - Le refus de prendre un acte réglementaire constitue un acte réglementaire – CE, Assemblée, 8 juin 1973, Richard : « [L]es décisions refusant de prendre un décret réglementaire doivent elles-mêmes être regardées comme de nature réglementaire […] »3
+ - Le refus de prendre un acte réglementaire constitue un acte réglementaire – CE, Ass., 8 juin 1973, Richard : « [L]es décisions refusant de prendre un décret réglementaire doivent elles-mêmes être regardées comme de nature réglementaire […] »3
  - Les actes qui se rapportent à l’organisation d’un service public (qui influent directement sur la manière dont un service public est assuré) ont toujours un caractère réglementaire4.
  - Même solution en ce qui concerne les actes portant délégation de signature, lesquels touchent d’ailleurs à l’organisation du service public – Exemple : CE, 27 juillet 2001, Association de droit allemand « Stiftung Jean Arp und Sophie Taeuber ».
 *
@@ -1693,7 +1693,7 @@ Définition : La notification d’un acte administratif consiste à communiquer 
 b – Les possibilités de contestation de la légalité de l’acte
 Devant le juge, il existe deux voies pour contester la légalité d’un acte :
 * la voie de l’action
-* et la voie de l’exception, qui est en quelque sorte une « session de rattrapage », selon Mme Aurélie Bretonneau du Conseil d’État – Conclusions sur CE, assemblée, 18 mai 2018, Fédération des finances et affaires économiques de la CFDT. 
+* et la voie de l’exception, qui est en quelque sorte une « session de rattrapage », selon Mme Aurélie Bretonneau du Conseil d’État – Conclusions sur CE, ass., 18 mai 2018, Fédération des finances et affaires économiques de la CFDT. 
 i – La contestation contentieuse par voie d’action 
  On appelle « contestation contentieuse par voie d’action » le recours dirigé directement contre un acte administratif. 
 Le recours pour excès de pouvoir est l’archétype de la contestation contentieuse par voie d’action, car il tend directement à l’annulation d’un acte administratif.
@@ -1742,7 +1742,7 @@ On dit qu’il excipe de l’illégalité du règlement R du 1er janvier 2022, o
  Réponse : C’est on ne peut plus simple. Supposant que l’autorité administrative ait pris deux décisions A et B.  Supposons également que le rapport entre ces deux décisions soit le suivant : la décision B a été prise sur la base de la décision A, ou la décision B a été prise pour assurer l’application de la décision A. 
 Un requérant Alpha peut demander au juge l’annulation de la décision B en invoquant comme arguments les illégalités qui entachent la décision A. On dit alors que le requérant Alpha excipe de l’illégalité de la décision A pour obtenir l’annulation de la décision B. C’est cela l’exception d’illégalité.
  Question : Pour obtenir l’annulation de la décision B, le requérant Alpha peut-il invoquer comme argument toute illégalité entachant la décision A ? 
- Réponse : Non. Si l’acte A est un acte réglementaire, il y a deux types d’illégalités que le requérant Alpha ne peut pas invoquer : le vice de procédure et le vice de forme – CE, Assemblée, 18 mai 2018, Fédération des finances et affaires économiques de la CFDT.
+ Réponse : Non. Si l’acte A est un acte réglementaire, il y a deux types d’illégalités que le requérant Alpha ne peut pas invoquer : le vice de procédure et le vice de forme – CE, Ass., 18 mai 2018, Fédération des finances et affaires économiques de la CFDT.
  Question : Y a-t-il un délai pour soulever une exception d’illégalité ? 
  Réponse : On constate à ce niveau une grande différence entre les actes réglementaires et les actes non réglementaires.
  L’exception tirée de l’illégalité d’un acte règlementaire peut être présentée à toute époque. On dit qu’elle est perpétuelle.
@@ -2412,9 +2412,9 @@ Nota bene : le mot de résiliation est pris ici dans son sens strict, à savoir 
     Le pouvoir de résilier le contrat pour motif d’intérêt général est également connu sous une autre dénomination : « le pouvoir de résilier le contrat dans l’intérêt du service ». Quoique très usitée en doctrine, cette seconde formulation paraît trop étroite et donc moins adéquate. 
    Le pouvoir de résilier le contrat pour motif d’intérêt général ne doit pas être confondu avec le pouvoir de résiliation-sanction. 
    Confusion facilitée par le fait que, comme les pouvoirs de modification unilatérale et de sanction, c’est un pouvoir que l’administration détient de plein droit - CE, 17 mars 1864, Paul Dupont, Dalloz périodique, 1864, 3, 8620. 
-    Autrement dit, que cela soit ou non stipulé au contrat, l’administration contractante a le droit de résilier pour un motif d’intérêt général le contrat qu’elle a conclu - CE, Assemblée, 2 mai 1958, Distillerie de Magnac-Laval, Rec. p. 246.
+    Autrement dit, que cela soit ou non stipulé au contrat, l’administration contractante a le droit de résilier pour un motif d’intérêt général le contrat qu’elle a conclu - CE, Ass., 2 mai 1958, Distillerie de Magnac-Laval, Rec. p. 246.
     Toute clause qui prive la personne publique de ce droit de résilier le contrat est réputée nulle et, par conséquent, inopposable - CE, 6 mai 1985, Association Eurolat contre Crédit foncier de France.
-   L’exercice du pouvoir de résilier le contrat pour motif d’intérêt général, comme celui du pouvoir de modification unilatérale, est souvent justifié par le principe de mutabilité du service public21. Le contrat ayant été conclu dans l’intérêt du service, il arrivera fatalement un moment où il ne cadrera plus avec cet intérêt, qui est évolutif. Il sera alors légitime d’y mettre un terme. Le cocontractant recevra une indemnisation adéquate pour le préjudice subi - CE, Assemblée, 2 mai 1958, Distillerie de Magnac-Laval, décision précitée.
+   L’exercice du pouvoir de résilier le contrat pour motif d’intérêt général, comme celui du pouvoir de modification unilatérale, est souvent justifié par le principe de mutabilité du service public21. Le contrat ayant été conclu dans l’intérêt du service, il arrivera fatalement un moment où il ne cadrera plus avec cet intérêt, qui est évolutif. Il sera alors légitime d’y mettre un terme. Le cocontractant recevra une indemnisation adéquate pour le préjudice subi - CE, Ass., 2 mai 1958, Distillerie de Magnac-Laval, décision précitée.
    L’exercice de ce pouvoir n’équivaut donc pas à une sanction ; il peut intervenir à l’occasion de l’exécution de tous les contrats administratifs (contrairement à la résiliation-sanction - Cf. supra). Au demeurant, il a été 
        * jugé par le Conseil constitutionnel conforme aux principes applicables aux contrats administratifs - Décision n°  84-185 DC du 18 janvier 1985, et
        * reconnu par le droit européen : il appartient « à tout État un pouvoir souverain de modifier, voire de résilier un contrat conclu avec des particuliers » - CEDH, 9 décembre 1994, Raffineries grecques Stran et Stratis Andreadis contre Grèce.
@@ -2428,7 +2428,7 @@ Nota bene : le mot de résiliation est pris ici dans son sens strict, à savoir 
      Cette indemnisation doit couvrir l’intégralité du dommage subi par le cocontractant, à condition qu’il puisse en justifier le montant, et que cela n’aboutisse pas à un enrichissement indu ou, plus spécifiquement, sans cause. Sont pris en compte le manque à gagner du cocontractant imputable à la résiliation ainsi que les dépenses qu’il a engagées (exigence cependant du caractère certain des pertes subies).  
      Toutefois, les clauses du contrat peuvent écarter le principe même de l’indemnisation23 ou prévoir une indemnisation transactionnelle moindre que le montant du dommage, voire une indemnisation supérieure à condition qu’elle ne soit pas manifestement disproportionnée et n’ait pas pour effet de dissuader l’administration d’exercer son droit de résiliation pour motif d’intérêt général. 
      En cas d’exercice illégal du pouvoir de résilier le contrat pour un motif d’intérêt général (par exemple, si la réalité du motif d’intérêt général invoquée n’est pas établie), le juge peut 
-      * tenir pour illégale la décision (fondée sur un tel motif) de résilier le contrat - CE, Assemblée, 2 février 1987, Société T.V.6 - et
+      * tenir pour illégale la décision (fondée sur un tel motif) de résilier le contrat - CE, Ass., 2 février 1987, Société T.V.6 - et
       * condamner l’administration à verser à son cocontractant une indemnité destinée non seulement à compenser le manque à gagner et à rembourser les dépenses engagées, mais aussi à réparer l’atteinte à la réputation découlant de la résiliation illégale.
 
 e – Les obligations de l’administration contractante
