@@ -113,6 +113,11 @@ const App = () => {
                 {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}<span className="text-sm">{isDarkMode ? 'Mode clair' : 'Mode sombre'}</span>
             </button>
         </div>
+        <div className="bg-slate-800/50 rounded-lg p-3 text-xs text-slate-500 hidden md:block">
+                <p>Version 1.0.0</p>
+                <p>Propulsé par Gemini 2.5</p>
+                <p>Designed by A. Coulibaly</p>
+            </div>
       </aside>
 
       <main className="flex-1 flex flex-col h-full overflow-hidden relative">
@@ -202,6 +207,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
