@@ -117,7 +117,7 @@ const App = () => {
                 <p>Version 1.0.0</p>
                 <p>Propulsé par Gemini 2.5</p>
                 <p>Designed by A. Coulibaly</p>
-                <p className={`text-sm ${activeTheme.text}`}><a class="underline hover:text-white" href="https://www.lex-publica.com<">Lex publica</a></p>
+                <p className={`text-sm ${activeTheme.text}`}><a href="https://www.lex-publica.com<">Lex publica</a></p>
             </div>
       </aside>
 
