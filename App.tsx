@@ -115,7 +115,7 @@ const App = () => {
         </div>
         <div className="bg-slate-800/50 rounded-lg p-3 text-xs text-slate-500 hidden md:block">
                 <p>Version 1.0.0</p>
-                <p>Propulsé par Gemini 2.5</p>
+                <p>Propulsé par Gemini-2.5-flash</p>
                 <p>Designed by A. Coulibaly</p>
                 <p className={`text-sm ${activeTheme.text} hover:text-white`}><a href="https://www.lex-publica.com/" target="_blank">Lex publica</a></p>
             </div>
@@ -208,6 +208,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
