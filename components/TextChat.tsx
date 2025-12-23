@@ -279,19 +279,19 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
             
             <div className="p-6 overflow-y-auto space-y-6 text-sm text-slate-600 dark:text-slate-400">
               <section className="space-y-2">
-                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
-                  <Paperclip size={18} className={colors.text} />
-                  Analyse de Documents PDF
-                </h4>
-                <p>Utilisez le trombone de la zone de saisie pour joindre un document PDF au chat. L'IA analysera votre document PDF, puis répondra à vos demandes ou questions relativement à son contenu.</p>
-              </section>
-
-              <section className="space-y-2">
                 <h4 className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
                   <Layout size={18} className={colors.text} />
                   Actions rapides
                 </h4>
                 <p>Les boutons au-dessus de la zone de saisie permettent de générer instantanément un QUIZ, un cas pratique, un plan de dissertation, etc.</p>
+              </section>
+
+              <section className="space-y-2">
+                <h4 className={`font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2`}>
+                  <Paperclip size={18} className={colors.text} />
+                  Analyse de Documents PDF
+                </h4>
+                <p>Utilisez le trombone de la zone de saisie pour joindre un document PDF au chat. L'IA analysera votre document PDF, puis répondra à vos demandes ou questions relativement à son contenu.</p>
               </section>
 
               <section className="space-y-2">
@@ -312,6 +312,7 @@ export const TextChat: React.FC<TextChatProps> = ({ courseContent, systemInstruc
     </div>
   );
 };
+
 
 
 
