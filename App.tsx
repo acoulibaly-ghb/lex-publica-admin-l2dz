@@ -117,7 +117,7 @@ const App = () => {
                 <p>Version 1.0.0 2025</p>
                 <p>Propulsé par Gemini-2.5-flash</p>
                 <p>Designed by A. Coulibaly</p>
-                <p className="text-xs text-white"><a className={`hover:${activeTheme.bg}`} href="https://www.lex-publica.com/" target="_blank">Lex publica</a></p>
+                <p className="text-xs text-white"><a className={`hover:${activeTheme.bg}`} href="https://www.lex-publica.com/" target="_blank">www.lex publica.com</a></p>
             </div>
       </aside>
 
@@ -208,6 +208,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
